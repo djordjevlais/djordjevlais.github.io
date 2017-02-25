@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="author" content="Djordje Vlaisavljevic">
+    <meta name="description" content="{{ site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
+    <link rel="stylesheet" href="https:/unpkg.com/tachyons/css/tachyons.min.css">
+    <style type="text/css">
+        {% capture include_to_scssify %}
+            {% include main.scss %}
+        {% endcapture %}
+        {{ include_to_scssify | scssify }}
+    </style>
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+        {% include google-analytics.html %}
+    {% endif %}
+</head>
+
+<body class="">
+
+    {% include header.html %}
+
+    <section class="hero" style="background-color: {{ page.hero-bg }};">
+        {% if page.hero-img %}
+            <img class="center tc db" src="{{ site.url }}/assets/img/{{ page.hero-img }}">
+        {% endif %}
+
+        {% if page.homepage %}
+            <section class="w-100 pa4 pa5-m pa5-l flex items-center flex-wrap flex-column flex-row-l">
+                <section class="w-100 w-50-l">
+                    <h1 class="f3 f1-ns tl pt2 pr5-ns pb2 mb0 lh-title">Hey there, I’m Djordje. I design and code all kinds of web thingies.</h1>
+                    <p class="pv3-ns pt0 pb0 f5 lh-copy normal black-80 measure">I’m currently looking for new roles, both full-time and freelance, so feel free to <a href="{{ site.url }}/aboutme/">get in touch</a>.</p>
+                </section>
+                <section class="w-100 w-50-l dn db-ns">
+                    <img class="pt4 pt5-ns tc" src="{{ site.url }}/assets/img/hero_img@1x.png">
+                </section>
+            </section>
+        {% endif %}
+
+    </section>
+
+    <main class="pb4 pb5-ns" aria-label="Content">
+        {{ content }}
+    </main>
+    
+    {% include cta.html %}
+    
+    {% include footer.html %}
+</body>
+
+</html>

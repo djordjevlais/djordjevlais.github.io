@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Office Code Pro';
+    src: url('/assets/fonts/officecodepro-bold-webfont.woff2') format('woff2'), url('/assets/fonts/officecodepro-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Office Code Pro';
+    src: url('/assets/fonts/officecodepro-bolditalic-webfont.woff2') format('woff2'), url('/assets/fonts/officecodepro-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Office Code Pro';
+    src: url('/assets/fonts/officecodepro-light-webfont.woff2') format('woff2'), url('/assets/fonts/officecodepro-light-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Office Code Pro';
+    src: url('/assets/fonts/officecodepro-lightitalic-webfont.woff2') format('woff2'), url('/assets/fonts/officecodepro-lightitalic-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Office Code Pro';
+    src: url('/assets/fonts/officecodepro-regular-webfont.woff2') format('woff2'), url('/assets/fonts/officecodepro-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Office Code Pro';
+    src: url('..fonts/officecodepro-regularitalic-webfont.woff2') format('woff2'), url('../fonts/officecodepro-regularitalic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    font-family: "Office Code Pro", monospace;
+}
+
+/*body {
+    font-family: "Cousine", serif;
+}*/
+
+h1,
+h2,
+h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+/*
+blockquote {
+    font-family: "Source Serif Pro";
+    margin-left: -2em;
+    margin-right: -2em;
+    font-size: 2em;
+    text-indent: -0.4em;
+}*/
+
+.f-tiny {
+    font-size: 0.75rem;
+}
+
+ul {
+    -webkit-padding-start: 0;
+}
+
+p {
+    line-height: 1.666666;
+}
+
+.hero {
+    background-color: #FFD3D3;
+}
+
+.nested-copy-line-height p,
+.nested-copy-line-height ul,
+.nested-copy-line-height ol {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.nested-headline-sansserif h1,
+.nested-headline-sansserif h2,
+.nested-headline-sansserif h3,
+.nested-headline-sansserif h4,
+.nested-headline-sansserif h5,
+.nested-headline-sansserif h6
+ {
+  font-family: "Rubik", sans-serif;
+}
+
+.nested-headline-size h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 4rem;
+}
+
+.nested-headline-line-height h1,
+.nested-headline-line-height h2,
+.nested-headline-line-height h3,
+.nested-headline-line-height h4,
+.nested-headline-line-height h5,
+.nested-headline-line-height h6 {
+  line-height: 1.25;
+}
+
+.nested-img img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  width: inherit;
+}
+
+.nested-figure figure {
+  max-width: 100%;
+  height: auto;
+}
+
+.nested-embeds iframe,
+.nested-embeds embed,
+.nested-embeds object,
+.nested-embeds video {
+  max-width: 100%;
+}
+
+.nested-hr hr {
+  border: 1px solid #FFFFFF;
+  margin: 2rem 0;
+}
+
+.nested-code pre,
+.nested-code code {
+  font-size: .875em;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background-color: #EEE;
+  display: block;
+  color: #444444;
+}
+
+.nested-list ul {
+    padding-left: 1em;
+}
+
+.nested-list li {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.nested-dt dt {
+  margin: 0.5rem 0;
+}
+
+.nested-table table {
+  border-collapse: collapse;
+}
+
+.nested-table thead {
+  border-bottom: 2px solid #333;
+}
+
+.nested-table th,
+.nested-table td {
+  padding: 0.67rem 0.5rem;
+  text-align: left;
+}
+
+.nested-link a, .link {
+}
+.nested-link a,
+.nested-link a:link,
+.nested-link a:visited,
+.nested-link a:hover,
+.nested-link a:active {
+  // color: #19a974;
+  // text-decoration: none;
+}
+.nested-link a:link, {
+  
+}
+.nested-link a:visited {
+  
+}
+.nested-link a:active {
+  
+}
+.nested-blockquote blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 48em) {
+  .nested-big-image .wide {
+      max-width: 180%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .nested-list ul {
+      -webkit-padding-start: 0;
+  }
+
+ .nested-blockquote blockquote p {
+    margin-left: -4em;
+    margin-right: -4em;
+    text-indent: -0.4em;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.b-sides {
+  // background-image: url("/assets/img/selected-work-1@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  padding-bottom: 42.88888889%;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 2rem;
+
+  animation: cycle 3s steps(1) infinite;
+  animation-play-state: running;
+}
+
+.b-sides:hover {
+  animation-play-state: paused;
+}
+
+@keyframes cycle {
+  0% {
+    background-image: url("/assets/img/selected-work-1@1x.jpg");
+  }
+  20% {
+    background-image: url("/assets/img/selected-work-2@1x.jpg");
+  }
+  40% {
+    background-image: url("/assets/img/selected-work-3@1x.jpg");
+  }
+  60% {
+    background-image: url("/assets/img/selected-work-4@1x.jpg");
+  }
+  80% {
+    background-image: url("/assets/img/selected-work-5@1x.jpg");
+  }
+}

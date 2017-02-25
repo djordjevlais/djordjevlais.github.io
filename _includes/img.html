@@ -1,0 +1,9 @@
+<figure class="mw8 center pa4-ns mv4">
+    <img src="{{ site.url }}/assets/img/{{ include.img_1x }}" 
+        srcset="{{ site.url }}/assets/img/{{ include.img_1x }} 1x
+        {% if include.img_2x %}
+        , {{ site.url }}/assets/img/{{ include.img_2x }} 2x
+        {% endif %}"
+        class="{{ include.class }}" 
+        alt="{{ include.alt }}">
+</figure>
