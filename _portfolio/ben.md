@@ -13,7 +13,7 @@ stack: wordpress, illustrator, photoshop
 Benjamin van Buren is a PhD student at Yale, studying the perception of animacy. He wanted a new personal website to showcase his work in a fun and approachable way. 
 
 # Inspiration
-After diving into Ben’s research and some long chats with him, I learned that (this amazing Heider and Simmel video)[https://www.youtube.com/watch?v=76p64j3H1Ng] inspired him to look into what makes humans assign emotions, motivations, and purpose to simple shapes and percieve them as alive. I also noted the use of lo-fi video games in his research, and how some of his findings are rather dark (your performance suffers even when you just **think** floating shapes are “looking” at you! 😰 ). We agreed that one way of making this website truly unique and personal is to include all of these themes—Heider & Simmel, old-school video games, vintage books and UIs—into its visual language.
+After diving into Ben’s research and some long chats with him, I learned that [this amazing Heider and Simmel video](https://www.youtube.com/watch?v=76p64j3H1Ng) inspired him to look into what makes humans assign emotions, motivations, and purpose to simple shapes and percieve them as alive. I also noted the use of lo-fi video games in his research, and how some of his findings are rather dark (your performance suffers even when you just **think** floating shapes are “looking” at you! 😰 ). We agreed that one way of making this website truly unique and personal is to include all of these themes—Heider & Simmel, old-school video games, vintage books and UIs—into its visual language.
 
 {% include img.html img_1x="benvanburen-inspiration@1x.jpg" class="wide" alt="Ben van Buren inspiration" %}
 
