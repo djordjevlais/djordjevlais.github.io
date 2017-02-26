@@ -23,7 +23,10 @@ permalink: /selected-work/
         </header>
         <section>
             <figure class="mh0">
-                <img src="{{ site.url }}/assets/img/{{ case.img }}" class="db center">
+                <img src="{{ site.url }}/assets/img/{{ case.img_1x }}"
+                srcset="{{ site.url }}/assets/img/{{ case.img_1x }} 1x,
+                {{ site.url }}/assets/img/{{ case.img_2x }} 2x"  
+                class="db center">
             </figure>
         </section>
     </article>
