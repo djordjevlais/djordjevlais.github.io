@@ -25,7 +25,7 @@ With this in mind, I started working on sketches for each project. The idea was 
 # Pretty Responsive Charts
 Ben needed **lots** of charts to show the results of his experiments, but also a way to show the different conditions for each experiment. I accomplished this using Highcharts.js for creating customizable, responsive charts and making each bar activate a modal with HTML5 videos showcasing the experiment with different conditions. I prototyped the solution using Invision and then built it with Highcharts.js and Jquery.  
 
-{% include video.html video_src="charts.webm" %}
+{% include video.html video_src="charts.mp4" %}
 
 # 50 Shades of Clickbait
 While I was coding the website, we were constantly discussing and brainstorming the homepage. We needed something that would tell the visitors (or even better, show them) what’s Ben working on, ideally in less than 3 seconds. After numerous ideas, from straight-up-Buzzfeed “why a movie about triangles can move you more than a Mexican telenovela” to generic academic introductions, I found a way to both introduce Ben and let visitors directly experience his research.
