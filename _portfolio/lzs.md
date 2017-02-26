@@ -57,7 +57,7 @@ On popular request, we also added official Little Zebra Shopper barcode stickers
 As of 2016, Little Zebra Shopper has: 
 
 - more than 200.000 downloads 🌍 
-- 4-star average rating  💫
+- a 4-star average rating  💫
 - recommendations from [awesome blogs](http://www.theimum.com/2013/11/little-zebra-shopper-review/) and [app guides](https://itunes.apple.com/us/book/apps-playgrounds-100-best/id775722821?mt=11&ign-mpt=uo%3D4) 👍 
 - mentions in [talks](http://kidscreen.com/2014/02/14/living-the-idream-opportunities-and-challenges-in-the-childrens-app-market/) and [conferences](http://www.thechildrensmediaconference.com/blog/2013/07/06/top-10-trends-in-childrens-apps/) 🎤
 - been used in [schools](http://twoteachersoneblog.weebly.com/blog/little-zebra-shopper-app-teaching-money) and [museums](http://www.bootheelyouthmuseum.org/) 🎓
