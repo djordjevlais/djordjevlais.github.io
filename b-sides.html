@@ -7,7 +7,8 @@ tagline: Less words, more pictures? Here you go. 🌈
 permalink: /selected-work/
 ---
 
-{% for case in site.bsides %}
+{% assign cases = site.bsides | sort: "title" %}
+{% for case in cases %}
 
     <article class="mw8 mt4 center mb4 mb6-ns pa3">
         <header class="cf mb4">

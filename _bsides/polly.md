@@ -1,6 +1,7 @@
 ---
 title: Polly Toys
 color: pink
+order: 2
 link: http://kinderkaufladen.de/en/
 img: browser_polly@1x.jpg
 role: Design, Development, Wordpress

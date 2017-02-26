@@ -1,6 +1,7 @@
 ---
 title: Tomáš Kohl
 color: red
+order: 1
 link: https://tomaskohl.com/
 img: browser_tomas@1x.jpg
 role: Design, Development
