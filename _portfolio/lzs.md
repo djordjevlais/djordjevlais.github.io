@@ -35,7 +35,7 @@ I also had to make sure they’re easy to print, cut out, fold and glue, even wh
 # Website
 I also designed and built the Little Zebra Shopper website, which explains how the app works using simple language, pictures, videos and gifs. There is also a section where users can download new product packs to use with the app. The website is running on Wordpress, Timber and Advanced Custom Fields, making it easy for Hans-Peter to add new product sets and blog posts.
 
-{% include img.html img_1x="lzs_website@1x.jpg" img_2x="lzs_website@1x.jpg" class="wide" alt="Little Zebra Shopper website" %}
+{% include img.html img_1x="lzs_website@1x.jpg" img_2x="lzs_website@2x.jpg" class="wide" alt="Little Zebra Shopper website" %}
 
 # Updates
 After amazing initial response (over 1000 downloads in a week!), we had a long list of improvements, feedback, wishes and demands…
