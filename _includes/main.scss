@@ -219,7 +219,7 @@ p {
 }
 
 .b-sides {
-  // background-image: url("/assets/img/selected-work-1@1x.jpg");
+  background-image: url("/assets/img/selected-work-1@1x.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -228,12 +228,33 @@ p {
   max-width: 450px;
   margin: 0 auto 2rem;
 
+  -webkit-animation: cycle 3s steps(1) infinite;
   animation: cycle 3s steps(1) infinite;
+  -webkit-animation-play-state: running;
   animation-play-state: running;
 }
 
 .b-sides:hover {
+  -webkit-animation-play-state: paused;
   animation-play-state: paused;
+}
+
+@-webkit-keyframes cycle {
+  0% {
+    background-image: url("/assets/img/selected-work-1@1x.jpg");
+  }
+  20% {
+    background-image: url("/assets/img/selected-work-2@1x.jpg");
+  }
+  40% {
+    background-image: url("/assets/img/selected-work-3@1x.jpg");
+  }
+  60% {
+    background-image: url("/assets/img/selected-work-4@1x.jpg");
+  }
+  80% {
+    background-image: url("/assets/img/selected-work-5@1x.jpg");
+  }
 }
 
 @keyframes cycle {
