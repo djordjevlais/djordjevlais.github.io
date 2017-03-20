@@ -205,6 +205,13 @@ p {
       transform: translateX(-50%);
   }
 
+  .nested-big-image figcaption {
+    margin-left: -4em;
+    margin-right: -4em;
+    text-indent: -0.4em;
+    margin-top: 2rem;
+  }
+
   .nested-list ul {
       -webkit-padding-start: 0;
   }

@@ -6,4 +6,8 @@
         {% endif %}"
         class="{{ include.class }}" 
         alt="{{ include.alt }}">
+
+        {% if include.caption %}
+        <figcaption class="f6 black-60 tc image-caption">{{ include.caption }}</figcaption>
+        {% endif %}
 </figure>
