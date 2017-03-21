@@ -180,7 +180,7 @@ p {
 .nested-link a:visited,
 .nested-link a:hover,
 .nested-link a:active {
-  // color: #19a974;
+  color: #0000EE;
   // text-decoration: none;
 }
 .nested-link a:link, {
@@ -194,7 +194,9 @@ p {
 }
 .nested-blockquote blockquote {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
 }
 
 @media screen and (min-width: 48em) {
@@ -222,6 +224,7 @@ p {
     text-indent: -0.4em;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    font-size: 1.5rem;
   }
 }
 
