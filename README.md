@@ -5,5 +5,5 @@ My personal website.
 - [x] Create illustration portfolio
 - [x] Link illustration portfolio
 - [x] Create blog template
-- [ ] Create blog page
-- [ ] Add first blog post
+- [x] Create blog page
+- [x] Add first blog post
