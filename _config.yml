@@ -26,6 +26,8 @@ google_analytics: UA-92785683-1
 collections:
   portfolio:
     output: true
+  bookcovers:
+    output: true
   bsides:
     output: false
 
