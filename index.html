@@ -104,7 +104,7 @@ homepage: yes
 </section>
      
         <section id="work" class="cf ph3 pv5 mw9 center">
-            <h1 class="mt2 mb0 f3 f2-ns black lh-title tc center measure">In my previous life, I was a freelancer designer/developer/illustrator working on projects like:</h1>
+            <h1 class="mt2 mb0 f3 f2-ns black lh-title tc center measure mb4">In my previous life, I was a freelancer designer / developer / illustrator working on projects like:</h1>
             {% assign portfolio = site.portfolio | sort: 'date' %}
             {% for case in portfolio reversed %}
                 <a href="{{ case.url }}">
@@ -154,8 +154,8 @@ homepage: yes
                     <a href="{{ post.url }}" class="default-blue">{{ post.title }}</a>
                     </li>
                 {% endfor %}
-                    <li class="mb2">
-                    <a href="https://www.hov.co/blog/post/design-ethics-context-matters" class="default-blue">Design Ethics: Part I (on HOV blog)</a>
+                    <li class="mb3">
+                    <a class="f4" href="https://www.hov.co/blog/post/design-ethics-context-matters" class="default-blue">Design Ethics: Part I (on HOV blog)</a>
                     </li>
                     <li class="mb2">
                     <a href="https://www.hov.co/blog/post/design-ethics-p-t-ii-what-does-it-mean-to-be-unethical" class="default-blue">Design Ethics: Part II (on HOV blog)</a>
