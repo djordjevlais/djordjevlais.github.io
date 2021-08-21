@@ -27,7 +27,7 @@ In the end, we've decided on an interesting direction: dark background, light te
 
 For some key components, we even animated the patterns to nudge visitors toward calls-to-action. Frontend devs really did a great job with making the animations smooth and performant.
 
-[animation]
+{% include video.html video_src="hov-acc.mp4" %}
 
 # Startup accelerator
 Our CEO, Usman, wrote the copy for the landing page and it was my job to design it. He saw it as a long, hard-sell landing page, which would cover everything startups need to know about the program. I've played with the layout and added subtle animations in order to keep the visitor's interest.
