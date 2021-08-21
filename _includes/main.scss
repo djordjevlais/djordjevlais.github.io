@@ -79,6 +79,10 @@ p {
     background-color: #FFD3D3;
 }
 
+.measure {
+  max-width: 40em !important;
+}
+
 .nested-copy-line-height p,
 .nested-copy-line-height ul,
 .nested-copy-line-height ol {
