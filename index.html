@@ -20,12 +20,12 @@ homepage: yes
             {% assign cases = site.cases | sort: 'date' %}
             {% for case in cases reversed %}
                 <a href="{{ case.url }}">
-                    <article class="w-100 w-50-m w-50-l fl tl mb4 mb5-ns">
-                        <section class="tc">
+                    <article class="w-100 flex tl mb4 mb5-ns">
+                        <section class="w-100 w-50-m w-50-l">
                             <img src="{{ site.url }}/assets/img/{{ case.thumbnail }}">
                         </section>
-                        <section class="pl2 tc">
-                            <h1 class="mt2 mb0 f3 f2-ns black">{{ case.title }}</h1>
+                        <section class="pl2 w-100 w-50-m w-50-l">
+                            <h1 class="mb0 f3 f2-ns black">{{ case.title }}</h1>
                             <p class="f5 mt2 black-80">{{ case.tagline }}</p>
                         </section>
                     </article>
