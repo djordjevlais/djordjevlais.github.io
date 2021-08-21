@@ -1,16 +1,12 @@
 ---
 layout: case
 title: Helping beginners invest in REITs
-hero-bg: rgba(87, 202, 239, 100)
-hero-img: hero-lzs.jpg
-thumbnail: thumbnail-lzs.png
+hero-bg: rgba(255, 255, 255, 100)
+hero-img: portfolio-hov@2x.png
+thumbnail: portfolio-hov@2x.png
 tagline: Raising the bar for pretend-play 👶
 role: UX, UI, Branding, Interaction, Prototyping
 ---
-
-# REITScreener
-**My role: UX, UI, Branding, Interaction, Prototyping**
-
 # Overview
 We worked with Tam Ging Wien, a seasoned REITs expert and educator, on helping people invest in REITs.
 
@@ -26,31 +22,35 @@ We teamed up with Wien and worked closely with him to bring his vision to life. 
 2. I've created a simple brand which would make all these moving parts feel like a cohesive and consistent experience
 3. I've designed a UI kit in Sketch, so we could quickly experiment and reiterate.
 
-{% include img.html img_1x="lzs_wireframes@1x.jpg" img_2x="lzs_wireframes@2x.jpg" class="wide" alt="Little Zebra Shopper wireframes" %}
+{% include img.html img_1x="reitscreener-marketing@1x.png" img_2x="reitscreener-marketing@2x.png" class="wide" alt="REITScreener marketing website" %}
 
 # What's worse than designing tables? Designing customizable, responsive tables 😅
 One big challenge were the REITs index tables, the screener itself. Each entry had 30+ fields, which you can enable or disable, sort by or use to further filter data, depending on your strategy. And if you have a strategy that works for you, you want to save it for future use. That meant the table needs to be **super-flexible** and **really fast**.
 
 I was lucky to work with amazing frontend devs. This is one of the things where spending time on mockups **won't get you anywhere**. So we've spent hours together in Chrome Devtools together, experimenting and making sure everything works fast and looks good in 54784578 different states.
 
-/reitscreener-screener-old@2x.png
+{% include img.html img_1x="reitscreener-screener-old@1x.png" img_2x="reitscreener-screener-old@2x.png" class="wide" alt="REITScreener screener table" %}
 
 # Personas
 This worked for proficient users, but as time went by it was obvious that we're limiting ourselves if we only focus on those who already know about REITs. So after more research and collecting data about people who sign up for REITScreener, it was clear that we have two different personas to cater to: **newbies** and **pros**. And if our funnel is trying to please both of those groups, newbies won't get the support they need and pros will get annoyed.
 
 The solution we went with was an **onboarding questionnaire**. User would get through a couple of questions at the started which would help us figure out the best approach for them. Depending on their answers, they would get different tags which start a different email sequence in ActiveCampaign.
 
-/reitscreener-onboarding-1@2x.png
+{% include img.html img_1x="reitscreener-onboarding-1@1x.png" img_2x="reitscreener-onboarding-1@2x.png" class="wide" alt="REITScreener onboarding flow" %}
 
 # Simplifying the screener
 That was a move in the right direction, but it wasn't enough. We wanted to do another experiment: what if we built a **separate tool just for newbies**? If newbies don't have enough knowledge or time to mess with complex strategies, let's simplify it.
 
 Following examples from companies such as Wealthfront, user would go through our Investment Profile quiz which would help us figure out user's priorities, age, expectations, risk tolerance... Based on that, we would calculate user's investment profile and offer them an investment strategy that works for them.
-/reitscreener-onboarding-2@2x.png
+
+{% include img.html img_1x="reitscreener-onboarding-2@1x.png" img_2x="reitscreener-onboarding-2@2x.png" class="wide" alt="REITScreener onboarding flow" %}
+
 The screener was also simplified. There is now a clear separation between two different mental models:
 - Picking and tweaking a strategy
 - Scanning and exploring the results
-/reitscreener-screener-new@2x.png
+
+{% include img.html img_1x="reitscreener-screener-new@1x.png" img_2x="reitscreener-screener-new@2x.png" class="wide" alt="REITScreener screener table" %}
+
 We worked at a fast pace, launching this within a month. I designed the onboarding and the screener, while my teammate Marko handled other screens like comparisons and settings, which are not shown here.
 
 # After
@@ -61,10 +61,3 @@ It was a great learning experience for me: I've learned a lot about designing su
 Looking back, one thing I would do differently this time around is **spending more time shaping the product**. We were overbuilding, and while we learned a lot of lessons along the way, those lessons were really expensive. We could have spent less time and money with user story mapping sessions and smaller experiments.
 
 I'm no longer working on REITScreener (my fellow teammate Estella took over the design duties) but you can still see chunks of my work at www.reitscreener.com.
-
-
-
-
-
-{% include img-double.html first_img="lzs-money-small.gif" second_img="lzs-coins-small.gif" class="wide" %}
-
