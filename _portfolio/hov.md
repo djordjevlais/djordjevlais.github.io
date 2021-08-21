@@ -3,7 +3,7 @@ layout: case
 title: Designing and evolving HOV's brand and website
 hero-bg: rgba(112, 112, 221, 100)
 hero-img: portfolio-hov-hero.png
-thumbnail: portfolio-reitscreener@2x.png
+thumbnail: portfolio-hov-thumb.png
 role: UX, UI, BRANDING, ANIMATION
 ---
 
