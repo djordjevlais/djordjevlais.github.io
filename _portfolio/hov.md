@@ -1,5 +1,5 @@
 ---
-layout: case
+layout: newcase
 title: Designing and evolving HOV's brand and website
 hero-bg: rgba(112, 112, 221, 100)
 hero-img: portfolio-hov-hero.png
