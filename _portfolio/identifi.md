@@ -25,7 +25,7 @@ I combined this with a couple of surveys I ran and the data from Mixpanel. After
 # Different needs
 The first thing I noticed is that a couple of different personas (or jobs) started to crystalize: managers, project leads and individual contributors all had specific needs, which wasn't reflected in the app. If we want to make the app useful to them, we have to pay attention to different contexts and mental models they have.
 
-{% include img.html img_1x="identifi-personas.png" img_2x="identifi-personas.png" class="wide" alt="Identifi personas" %}
+{% include img.html img_1x="identifi-personas.png" img_2x="identifi-personas.png" alt="Identifi personas" %}
 
 # Feature discovery
 Users were mostly using the Slack integration and never bothered opening the web-app, so they had no idea about which features existed. Sometimes they thought certain features are available only to admins.
