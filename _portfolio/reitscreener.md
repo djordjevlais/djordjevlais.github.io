@@ -1,8 +1,8 @@
 ---
 layout: case
 title: Helping beginners invest in REITs
-hero-bg: rgba(255, 255, 255, 100)
-hero-img: portfolio-hov@2x.png
+hero-bg: rgba(112, 112, 221, 100)
+hero-img: portfolio-hov-hero@2x.png
 thumbnail: portfolio-hov@2x.png
 tagline: Raising the bar for pretend-play 👶
 role: UX, UI, Branding, Interaction, Prototyping
