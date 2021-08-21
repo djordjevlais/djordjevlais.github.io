@@ -3,7 +3,7 @@ layout: newcase
 title: Helping beginners invest in REITs
 hero-bg: rgba(254, 198, 105, 100)
 hero-img: portfolio-reitscreener-hero.png
-thumbnail: portfolio-reitscreener@2x.png
+thumbnail: portfolio-reitscreener-thumb.png
 tagline: Raising the bar for pretend-play 👶
 role: UX, UI, Branding, Interaction, Prototyping
 ---

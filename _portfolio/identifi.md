@@ -3,7 +3,7 @@ layout: newcase
 title: Helping teammates collaborate remotely
 hero-bg: rgba(240, 239, 236, 100)
 hero-img: portfolio-identifi-hero.png
-thumbnail: portfolio-reitscreener@2x.png
+thumbnail: portfolio-identifi-thumb.png
 tagline: Identifi
 role: User research, wireframing, prototyping
 ---
