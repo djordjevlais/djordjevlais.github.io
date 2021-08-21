@@ -43,7 +43,7 @@ The app took it for granted everybody worked on a single project, so that's how 
 
 But it looked like most of people were working on multiple projects at the same time. I ran a quick survey and found out 65% of people were working on at least two projects. If they wanted to find an update from one of their teammates, they had to first figure out what is their "main project", and sometimes they couldn't access that one... That added a lot of friction to collaboration.
 
-{% include img.html img_1x="identifi-standup.png" img_2x="identifi-standup.png" class="wide" alt="Identifi standup idea" %}
+{% include img.html img_1x="identifi-standup.png" img_2x="identifi-standup.png" alt="Identifi standup idea" %}
 
 **My suggestion:** Make the app reflect the mental model of the actual users and their reality by letting them:
 - Access all daily standup entries
@@ -55,7 +55,7 @@ The main part of Identifi was the newsfeed. It displayed everything happening at
 
 I've made a list of information that's important to them and that they have to manually find every morning because it gives them context for that workday. Things like: how are my direct reports and teammates feeling today? Is anyone blocked today? Is anyone out of the office this week?
 
-{% include img.html img_1x="identifi-dashboard.png" img_2x="identifi-dashboard.png" class="wide" alt="Identifi dashboard" %}
+{% include img.html img_1x="identifi-dashboard.png" img_2x="identifi-dashboard.png" alt="Identifi dashboard" %}
 
 **My suggestion:** Some sort of a dashboard or digest that would present relevant and timely information when they start their day.
 
