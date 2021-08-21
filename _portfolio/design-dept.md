@@ -1,7 +1,7 @@
 ---
 layout: case
 title: Building HOV’s design department as Lead Designer
-hero-bg: rgba(254, 198, 105, 100)
+hero-bg: rgba(255, 208, 239, 100)
 hero-img: portfolio-design-dept-hero.png
 thumbnail: portfolio-reitscreener@2x.png
 role: Design lead
