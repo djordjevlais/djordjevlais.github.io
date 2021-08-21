@@ -1,5 +1,5 @@
 ---
-layout: case
+layout: newcase
 title: Helping beginners invest in REITs
 hero-bg: rgba(254, 198, 105, 100)
 hero-img: portfolio-reitscreener-hero@2x.png
