@@ -17,6 +17,20 @@ homepage: yes
                     </p>
                 </section>
             </header>
+            {% assign cases = site.cases | sort: 'date' %}
+            {% for case in cases reversed %}
+                <a href="{{ case.url }}">
+                    <article class="w-100 w-50-m w-50-l fl tl mb4 mb5-ns">
+                        <section class="tc">
+                            <img src="{{ site.url }}/assets/img/{{ case.thumbnail }}">
+                        </section>
+                        <section class="pl2 tc">
+                            <h1 class="mt2 mb0 f3 f2-ns black">{{ case.title }}</h1>
+                            <p class="f5 mt2 black-80">{{ case.tagline }}</p>
+                        </section>
+                    </article>
+                </a>
+            {% endfor %}
             <section class="cf w-100 flex-ns items-center mb5">
                 <div class="fl w-100 w-50-ns pr4-ns">
                     <img srcset="http://www.djordje.work/assets/img/portfolio-reitscreener@1x.png 1x, http://www.djordje.work/assets/img/portfolio-reitscreener@2x.png 2x" src="http://www.djordje.work/assets/img/portfolio-reitscreener@1x.png">
