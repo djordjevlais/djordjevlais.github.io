@@ -1,7 +1,7 @@
 ---
 layout: newcase
 title: Helping teammates collaborate remotely
-hero-bg: rgba(255, 197, 61, 100)
+hero-bg: rgba(240, 239, 236, 100)
 hero-img: portfolio-identifi-hero.png
 thumbnail: portfolio-reitscreener@2x.png
 tagline: Identifi
