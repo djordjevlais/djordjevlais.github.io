@@ -30,6 +30,8 @@ collections:
     output: true
   bsides:
     output: false
+  cases:
+    output: true
 
 sass:
   sass_dir: _sass
