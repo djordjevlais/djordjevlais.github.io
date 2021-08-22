@@ -53,11 +53,11 @@ The screener was also simplified. There is now a clear separation between two di
 
 We worked at a fast pace, launching this within a month. I designed the onboarding and the screener, while my teammate Marko handled other screens like comparisons and settings, which are not shown here.
 
-# After
+# Lessongs and outcomes
 REITScreener is now a **profitable product**. It helped Wien scale his business beyond what he could have done with just seminars. And hundreds of users are still using it every day.
 
 It was a great learning experience for me: I've learned a lot about designing super-complex responsive tables and charts.
 
 Looking back, one thing I would do differently this time around is **spending more time shaping the product**. We were overbuilding, and while we learned a lot of lessons along the way, those lessons were really expensive. We could have spent less time and money with user story mapping sessions and smaller experiments.
 
-I'm no longer working on REITScreener (my fellow teammate Estella took over the design duties) but you can still see chunks of my work at www.reitscreener.com.
+I'm no longer working on REITScreener (my fellow teammate Estella took over the design duties) but you can still see chunks of my work at [https://reitscreener.com/screener/table](https://reitscreener.com/screener/table)
