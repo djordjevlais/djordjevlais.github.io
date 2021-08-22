@@ -1,10 +1,10 @@
 ---
 layout: newcase
-title: Helping teammates collaborate remotely
+title: Improving how teams collaborate remotely
 hero-bg: rgba(240, 239, 236, 100)
 hero-img: portfolio-identifi-hero.png
 thumbnail: portfolio-identifi-thumb.png
-tagline: Identifi
+tagline: User research that helped us improve activation and engagement of internal product
 role: User research, wireframing, prototyping
 ---
 
