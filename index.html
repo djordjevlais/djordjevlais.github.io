@@ -32,6 +32,7 @@ homepage: yes
                         </section>
                     </article>
                 {% endif %}
+                {% if thecycle == 'even' %}
                     <article class="w-100 flex tl mb4 mb5-ns items-center flex-row-reverse-l">
                         <section class="w-100 w-50-m w-50-l">
                             <img src="{{ site.url }}/assets/img/{{ case.thumbnail }}">
@@ -42,6 +43,7 @@ homepage: yes
                             <a href="{{ case.url }}" class="bg-black br-pill dib hover-bg-near-black link mt2 pa2 ph3 white">Read case study 👉</a>
                         </section>
                     </article>
+                {% endif %}
             {% endfor %}
             
             
