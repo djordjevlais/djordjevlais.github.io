@@ -58,6 +58,6 @@ REITScreener is now a **profitable product**. It helped Wien scale his business 
 
 It was a great learning experience for me: I've learned a lot about designing super-complex responsive tables and charts.
 
-Looking back, one thing I would do differently this time around is **spending more time shaping the product**. We were overbuilding, and while we learned a lot of lessons along the way, those lessons were really expensive. We could have spent less time and money with user story mapping sessions and smaller experiments.
+Looking back, one thing I would do differently this time around is **spending more time shaping the MVP**. We were overbuilding, and while we learned a lot of lessons along the way, those lessons were really expensive. We could have spent less time and money with user story mapping sessions and smaller experiments.
 
 I'm no longer working on REITScreener (my fellow teammate Estella took over the design duties) but you can still see some of my work on [REITScreener website](https://reitscreener.com/screener/table)
