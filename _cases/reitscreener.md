@@ -10,38 +10,38 @@ role: UX, UI, Branding, Interaction, Prototyping
 # Overview
 We worked with Tam Ging Wien, a seasoned REITs expert and educator, on helping people invest in REITs.
 
-He was already running a successful series of seminars which helped people start investing, but there were a couple of issues:
+He was already running a successful series of seminars that helped people start investing, but there were a couple of issues:
 1. After the seminar, **users were on their own**. They would need  to browse numerous blogs to gather data, use complicated Excel sheets to make calculations... It was intimidating.
 2. **The model couldn't scale**. Wien's seminars were constantly sold out, and unless he cloned himself it was physically impossible to scale it.
 3. There was **a missed opportunity in the funnel**. This obviously wasn't the end of the funnel for his students, yet he was letting them go after that.
 
-He came to us with an idea for a powerful tool that would solve all these problems: user could take courses, stay up to date with market changes and analyze wins and losses, all in one place.
+He came to us with an idea for a powerful tool that would solve all these problems: users could take courses, stay up to date with market changes and analyze wins and losses, all in one place.
 
-We teamed up with Wien and worked closely with him to bring his vision to life. My job was everything design related, from marketing to product.
+We teamed up with Wien and worked closely with him to bring his vision to life. My job was everything design-related, from marketing to product.
 1. I've taken Wien's rough ideas and sketches and turned them into user flows, wireframes and actual UI
-2. I've created a simple brand which would make all these moving parts feel like a cohesive and consistent experience
+2. I've created a simple brand that would make all these moving parts feel like a cohesive and consistent experience
 3. I've designed a UI kit in Sketch, so we could quickly experiment and reiterate.
 
 {% include img.html img_1x="reitscreener-marketing@1x.png" img_2x="reitscreener-marketing@2x.png" class="wide" alt="REITScreener marketing website" %}
 
 # What's worse than designing tables? Designing customizable, responsive tables 😅
-One big challenge were the REITs index tables, the screener itself. Each entry had 30+ fields, which you can enable or disable, sort by or use to further filter data, depending on your strategy. And if you have a strategy that works for you, you want to save it for future use. That meant the table needs to be **super-flexible** and **really fast**.
+One big challenge was the REITs index table, the screener itself. Each entry had 30+ fields, which you can enable or disable, sort by or use to further filter data, depending on your strategy. And if you have a strategy that works for you, you want to save it for future use. That meant the table needs to be **super-flexible** and **really fast**.
 
-I was lucky to work with amazing frontend devs. This is one of the things where spending time on mockups **won't get you anywhere**. So we've spent hours together in Chrome Devtools together, experimenting and making sure everything works fast and looks good in 54784578 different states.
+I was lucky to work with amazing front-end devs. This is one of the things where spending time on mockups **won't get you anywhere**. So we've spent hours together in Chrome Devtools together, experimenting and making sure everything works fast and looks good in 54784578 different states.
 
 {% include img.html img_1x="reitscreener-screener-old@1x.png" img_2x="reitscreener-screener-old@2x.png" class="wide" alt="REITScreener screener table" %}
 
 # Personas
 This worked for proficient users, but as time went by it was obvious that we're limiting ourselves if we only focus on those who already know about REITs. So after more research and collecting data about people who sign up for REITScreener, it was clear that we have two different personas to cater to: **newbies** and **pros**. And if our funnel is trying to please both of those groups, newbies won't get the support they need and pros will get annoyed.
 
-The solution we went with was an **onboarding questionnaire**. User would get through a couple of questions at the started which would help us figure out the best approach for them. Depending on their answers, they would get different tags which start a different email sequence in ActiveCampaign.
+The solution we went with was an **onboarding questionnaire**. A user would get through a couple of questions at the start which would help us figure out the best approach for them. Depending on their answers, they would get different tags that start a different email sequence in ActiveCampaign.
 
 {% include img.html img_1x="reitscreener-onboarding-1@1x.png" img_2x="reitscreener-onboarding-1@2x.png" class="wide" alt="REITScreener onboarding flow" %}
 
 # Simplifying the screener
 That was a move in the right direction, but it wasn't enough. We wanted to do another experiment: what if we built a **separate tool just for newbies**? If newbies don't have enough knowledge or time to mess with complex strategies, let's simplify it.
 
-Following examples from companies such as Wealthfront, user would go through our Investment Profile quiz which would help us figure out user's priorities, age, expectations, risk tolerance... Based on that, we would calculate user's investment profile and offer them an investment strategy that works for them.
+Following examples from companies such as Wealthfront, the user would go through our Investment Profile quiz which would help us figure out user's priorities, age, expectations, risk tolerance... Based on that, we would calculate user's investment profile and offer them an investment strategy that works for them.
 
 {% include img.html img_1x="reitscreener-onboarding-2@1x.png" img_2x="reitscreener-onboarding-2@2x.png" class="wide" alt="REITScreener onboarding flow" %}
 
