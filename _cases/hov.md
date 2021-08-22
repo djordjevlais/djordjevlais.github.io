@@ -35,7 +35,7 @@ Our CEO, Usman, wrote the copy for the landing page and it was my job to design 
 {% include img.html img_1x="hov-landing.png" img_2x="hov-landing.png" class="wide" alt="HOV landing" %}
 
 You can see the final version of the page here:
-<div class="db pa3 bg-washed-yellow>
+<div class="db pa3 bg-washed-yellow">
     <a href="https://www.hov.co/accelerator">HOV Accelerator landing page</a>
 </div>
 
@@ -51,10 +51,10 @@ We've managed to make the headlines of all most important Pakistani tech news so
 After the accelerator launched, the **style guide** and **templates** I've created made it a lot easier for other designers to create everything from social media graphics and company swag, to new landing pages and newsletters. It's great seeing your work evolve and your teammates building on top of it!
 
 The website was changed significantly since then, but you can still see a couple of pages I designed here:
-<div class="db pa3 bg-washed-yellow>
+<div class="db pa3 bg-washed-yellow">
     <a href="https://www.hov.co/accelerator">HOV Accelerator landing page</a>
 </div>
-<div class="db pa3 bg-washed-yellow>
+<div class="db pa3 bg-washed-yellow">
     <a href="https://www.hov.co/funded">HOV Funded Course landing page</a>
 </div>
 
