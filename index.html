@@ -25,7 +25,7 @@ homepage: yes
                         <section class="w-100 w-50-m w-50-l">
                             <img src="{{ site.url }}/assets/img/{{ case.thumbnail }}">
                         </section>
-                        <section class="pl3-l w-100 w-50-m w-50-l">
+                        <section class="pl3-l pl3-m w-100 w-50-m w-50-l">
                             <h1 class="mb0 f3 f2-ns black">{{ case.title }}</h1>
                             <p class="f5 mt2 black-80">{{ case.tagline }}</p>
                             <a href="{{ case.url }}" class="bg-black br-pill dib hover-bg-near-black link mt2 pa2 ph3 white">Read case study 👉</a>
@@ -33,11 +33,11 @@ homepage: yes
                     </article>
                 {% endif %}
                 {% if thecycle == 'even' %}
-                    <article class="w-100 flex tl mb4 mb5-ns items-center flex-row-reverse-l">
-                        <section class="w-100 w-50-m w-50-l">
+                    <article class="w-100 flex tl mb4 mb5-ns items-center">
+                        <section class="w-100 w-50-m w-50-l order-1-m order-1-l">
                             <img src="{{ site.url }}/assets/img/{{ case.thumbnail }}">
                         </section>
-                        <section class="pr3-l w-100 w-50-m w-50-l">
+                        <section class="pr3-l pr3-m w-100 w-50-m w-50-l order-0-m order-1-l">
                             <h1 class="mb0 f3 f2-ns black">{{ case.title }}</h1>
                             <p class="f5 mt2 black-80">{{ case.tagline }}</p>
                             <a href="{{ case.url }}" class="bg-black br-pill dib hover-bg-near-black link mt2 pa2 ph3 white">Read case study 👉</a>
