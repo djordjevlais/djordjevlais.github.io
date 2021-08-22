@@ -18,9 +18,9 @@ He was already running a successful series of seminars that helped people start 
 He came to us with an idea for a powerful tool that would solve all these problems: users could take courses, stay up to date with market changes and analyze wins and losses, all in one place.
 
 We teamed up with Wien and worked closely with him to bring his vision to life. My job was everything design-related, from marketing to product.
-1. I've taken Wien's rough ideas and sketches and turned them into user flows, wireframes and actual UI
-2. I've created a simple brand that would make all these moving parts feel like a cohesive and consistent experience
-3. I've designed a UI kit in Sketch, so we could quickly experiment and reiterate.
+1. I've taken Wien's rough ideas and sketches and turned them into **user flows, wireframes and actual UI**
+2. I've created a **simple brand** that would make all these moving parts feel like a cohesive and consistent experience
+3. I've designed a **UI kit** in Sketch, so we could quickly experiment and reiterate.
 
 {% include img.html img_1x="reitscreener-marketing@1x.png" img_2x="reitscreener-marketing@2x.png" class="wide" alt="REITScreener marketing website" %}
 
@@ -53,7 +53,7 @@ The screener was also simplified. There is now a clear separation between two di
 
 We worked at a fast pace, launching this within a month. I designed the onboarding and the screener, while my teammate Marko handled other screens like comparisons and settings, which are not shown here.
 
-# Lessongs and outcomes
+# Lessons and outcomes
 REITScreener is now a **profitable product**. It helped Wien scale his business beyond what he could have done with just seminars. And hundreds of users are still using it every day.
 
 It was a great learning experience for me: I've learned a lot about designing super-complex responsive tables and charts.
