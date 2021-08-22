@@ -1,6 +1,6 @@
 ---
 layout: newcase
-title: Helping teammates collaborate remotely
+title: Helping teams collaborate remotely
 hero-bg: rgba(240, 239, 236, 100)
 hero-img: portfolio-identifi-hero.png
 thumbnail: portfolio-identifi-thumb.png
