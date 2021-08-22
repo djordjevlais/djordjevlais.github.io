@@ -30,9 +30,7 @@ The first thing I noticed is that a couple of different personas (or jobs) start
 # Feature discovery
 Users were mostly using the Slack integration and never bothered opening the web app, so they had no idea about which features existed. Sometimes they thought certain features are available only to admins.
 
-<p class="bg-light-yellow bg-near-white bg-washed-yellow br3 pa3">
-<strong class="db">💡 My suggestion:</strong> Bring onboarding to where they are. Use Slack bot to introduce a new feature every day, and promote rarely used features inside the ones they're already using.
-</p>
+💡 **My suggestion:** Bring onboarding to where they are. Use Slack bot to introduce a new feature every day, and promote rarely used features inside the ones they're already using.
 
 # When mental models clash
 The overall sentiment was that async daily standups were there just to please project leads: users didn't get any value out of it, and they were running daily standup calls in addition to the async ones (98% of people according to a survey I ran!)
@@ -47,18 +45,9 @@ But it looked like most people were working on multiple projects at the same tim
 
 {% include img.html img_1x="identifi-standup.png" img_2x="identifi-standup.png" alt="Identifi standup idea" %}
 
-<div class="bg-light-yellow bg-near-white bg-washed-yellow br3 pa3">
-<p><strong class="db">💡 My suggestion:</strong> Make the app reflect the mental model of the actual users and their reality by letting them:</p>
-<ul>
-    <li>Access all daily standup entries</li>
-    <li>Tag themselves with projects they're working on</li>
-    <li>Filter the entries by project</li>
-</ul>
-</div>
-
 💡 **My suggestion:** Make the app reflect the mental model of the actual users and their reality by letting them:
 - Access all daily standup entries
-- Tag themselves with proje
+- Tag themselves with 
 - Filter the entries by project
 
 # Bringing the information to the user
@@ -77,7 +66,7 @@ The research served as a foundation for changes Marko and Estella designed in th
 - Opening up daily standup access allowed users to **collaborate** more and **interact** with each other inside the app
 - Dashboard improved the experience for managers and project leads: it was obvious from engagements on certain features they're now **finding the information they need daily**
 
-Additionally, this experience helped me finally figure out a not-perfect-but-good-enough structure for organizing user research in Notion which we could reuse on all projects. It's now a lot easier to make sure everyone on the team actually sees the results of the research. If you'd like to get access to these templates or just chat about it, feel free to reach out via Twitter or email! 
+Additionally, this experience helped me finally figure out a not-perfect-but-good-enough structure for organizing user research in Notion which we could reuse on all projects. It's now a lot easier to make sure everyone on the team actually sees the results of the research. If you'd like to get access to these templates or just chat about it, feel free to reach out via [email](mailto:dzvlais@gmail.com) or [Twitter](https://twitter.com/djordjevlais)! 
 
 
 
