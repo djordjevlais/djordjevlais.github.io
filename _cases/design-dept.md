@@ -1,11 +1,11 @@
 ---
-layout: case
+layout: newcase
 title: Building HOV’s design department as Lead Designer
 hero-bg: rgba(255, 208, 239, 100)
 hero-img: portfolio-design-dept-hero.png
 thumbnail: portfolio-design-dept-thumb.png
 role: Design lead
-tagline: Helping make a dev shop more design-oriented and hiring, training and managing designers
+tagline: Helping make a dev shop more design-oriented + hiring, training and managing designers
 ---
 
 # Overview
