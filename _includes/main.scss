@@ -67,10 +67,6 @@ blockquote {
     font-size: 0.75rem;
 }
 
-ul, ol {
-    -webkit-padding-start: 0;
-}
-
 p {
     line-height: 1.666666;
 }
@@ -209,6 +205,10 @@ p {
       position: relative;
       left: 50%;
       transform: translateX(-50%);
+  }
+
+  ul, ol {
+    -webkit-padding-start: 0;
   }
 
   .nested-big-image figcaption {
