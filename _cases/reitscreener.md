@@ -62,4 +62,4 @@ Looking back, one thing I would do differently this time around is **spending mo
 
 I'm no longer working on REITScreener (my fellow teammate Estella took over the design duties) but you can still see chunks of my work at [https://reitscreener.com/screener/table](https://reitscreener.com/screener/table)
 
-<div class="bg-yellow>hey</div>
+<div class="bg-yellow">hey</div>
