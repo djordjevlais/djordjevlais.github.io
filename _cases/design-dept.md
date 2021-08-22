@@ -22,17 +22,19 @@ What I knew is there's no way we can make a big change all at once. I've spent t
 Here are some of the challenges we ran into and how we (tried) to solve them:
 
 # We need a design process
-First we fooled ourselves with thinking we need to define One Big Ultimate Design Process, which would be a giant flowchart and would work for all our projects. But we quickly learned each project is different and this doesn't make sense. The User Experience Team of One was a life-saver here. It made so much sense to view the process as a toolbox and pick only the tools you actually need right now. So we added a couple of them to our toolbelt:
+First we fooled ourselves with thinking we need to define One Big Ultimate Design Process, which would be a giant flowchart and would work for all our projects. But we quickly learned each project is different and this doesn't make sense. [The User Experience Team of One](https://rosenfeldmedia.com/books/the-user-experience-team-of-one/) book was a life-saver here. It made so much sense to view the process as a toolbox and pick only the tools you actually need right now. So we added a couple of them to our toolbelt:
 - A simple **Product Requirement Document** template helps put everyone on the same page before a project starts.
 - **User story mapping** helps us visualize the entire flow of the product and shape it so our MVPs are, well, minimal
 - Regular **usability testing** helps us get objective feedback from actual users
 - **Brand sprints** help us quickly come up with good-enough branding direction for MVPs, since that's all they need at this point
 
+{% include img.html img_1x="identifi-mental-models.png" img_2x="identifi-mental-models.png" class="wide" alt="Identifi mental models" %}
+
 # We need more designers!
 We quickly realized one designer jumping between multiple projects is not a solution. So we decided to hire more. I was in charge of the hiring process:
-- Defining the roles we're looking to fill and writing job ads
-- Creating the funnel: from first contact to design exercises and how we're going to rate them
-- Interviewing candidates and helping pick the right ones for the job
+- **Defining the roles** we're looking to fill and writing job ads
+- **Creating the hiring funnel:** from first contact to design exercises and how we're going to rate them
+- **Interviewing candidates** and helping pick the right ones for the job
 
 # Okay, now we need to train the designers
 This was my first time having a manager, and now I have to be someone else's manager? Yikes 😅 This part was really scary at first and I had to learn as I go. Luckily, I had lots of support from my manager, Usman, and spent a lot of time reading about it.
@@ -40,7 +42,7 @@ This was my first time having a manager, and now I have to be someone else's man
 I've experimented and now I kinda (but only kinda) feel I know what works:
 - **It's not just about work:** you need to accept your teammates as people with different personalities, quirks and lifestyles. They have lives and struggles outside of work. Sometimes you can help them with that too, but sometimes you can just be there for them.
 - **Weekly 1-1 meetings.** Related: No matter how hectic things get at work, I dedicate one hour weekly to each of fellow designers and we talk about anything that's on their mind that week. Sometimes it's design feedback, sometimes it's venting and ranting, but we're always glad we did it.
-- **Clear expectations and regular feedback.** You don't want to be setting people up for failure and they need to know if they're moving toward success. A handy concept here was Andy Grove's Task Relevant Maturity. https://medium.com/@ameet/task-relevant-maturity-aff122fb535f Yeah, I know the phrase sounds boring, but I promise it helps.
+- **Clear expectations and regular feedback.** You don't want to be setting people up for failure and they need to know if they're moving toward success. A handy concept here was [Andy Grove's Task Relevant Maturity](https://medium.com/@ameet/task-relevant-maturity-aff122fb535f). Yeah, I know the phrase sounds boring, but I promise it helps.
 
 It's a good feeling seeing people grow over time, and even better knowing you helped them on their journey. Estella started as a junior QA and is know an amazing UI designer and manager. Marko started as a junior UI designer and he's now handling both UX and UI like a pro.
 
