@@ -5,7 +5,7 @@ hero-bg: rgba(112, 112, 221, 100)
 hero-img: portfolio-hov-hero.png
 thumbnail: portfolio-hov-thumb.png
 role: UX, UI, BRANDING, ANIMATION
-tagline: 
+tagline: Designing a website that convinced over a hundred of startups to apply for our accelerator
 ---
 
 As HOV grew, I was in charge of making sure the company's brand and website reflected who we are and what we're trying to do.
