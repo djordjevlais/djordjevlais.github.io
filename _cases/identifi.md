@@ -34,8 +34,6 @@ Users were mostly using the Slack integration and never bothered opening the web
 <strong class="db">💡 My suggestion:</strong> Bring onboarding to where they are. Use Slack bot to introduce a new feature every day, and promote rarely used features inside the ones they're already using.
 </p>
 
-💡 **My suggestion:** Bring onboarding to where they are. Use Slack bot to introduce a new feature every day, and promote rarely used features inside the ones they're already using.
-
 # When mental models clash
 The overall sentiment was that async daily standups were there just to please project leads: users didn't get any value out of it, and they were running daily standup calls in addition to the async ones (98% of people according to a survey I ran!)
 
@@ -49,9 +47,18 @@ But it looked like most people were working on multiple projects at the same tim
 
 {% include img.html img_1x="identifi-standup.png" img_2x="identifi-standup.png" alt="Identifi standup idea" %}
 
+<div class="bg-light-yellow bg-near-white bg-washed-yellow br3 pa3">
+<p><strong class="db">💡 My suggestion:</strong> Make the app reflect the mental model of the actual users and their reality by letting them:</p>
+<ul>
+    <li>Access all daily standup entries</li>
+    <li>Tag themselves with projects they're working on</li>
+    <li>Filter the entries by project</li>
+</ul>
+</div>
+
 💡 **My suggestion:** Make the app reflect the mental model of the actual users and their reality by letting them:
 - Access all daily standup entries
-- Tag themselves with 
+- Tag themselves with proje
 - Filter the entries by project
 
 # Bringing the information to the user
