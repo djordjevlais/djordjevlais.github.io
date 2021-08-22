@@ -18,7 +18,7 @@ My goal was to try to figure out why people aren't discovering and using feature
 # Research plan
 The first thing I wanted to do is run user interviews. Most of the feature requests were coming from the people at the top, and my assumption was that the needs of a CEO and e.g. a junior developer are very different. Their voice just wasn't getting heard.
 
-I've scheduled interviews with a diverse group of teammates: different departments, different seniority, different timezones... and let them walk me through their workday. Some of the most useful tips for doing this were from [Mom Test](http://momtestbook.com/) and [Talking to Humans](https://www.talkingtohumans.com/), and I highly recommend them.
+I've scheduled interviews with a diverse group of teammates: different departments, different seniority, different timezones... and let them walk me through their workday. Some of the most useful tips for doing this were from [The Mom Test](http://momtestbook.com/) and [Talking to Humans](https://www.talkingtohumans.com/), and I highly recommend them.
 
 I combined this with a couple of surveys I ran and the data from Mixpanel. After that, I organized the insights to shine a light on the biggest problems, and added suggestions about how we would solve them.
 
