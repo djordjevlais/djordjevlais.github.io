@@ -28,7 +28,7 @@ First we fooled ourselves with thinking we need to define One Big Ultimate Desig
 - Regular **usability testing** helps us get objective feedback from actual users
 - **Brand sprints** help us quickly come up with good-enough branding direction for MVPs, since that's all they need at this point
 
-{% include img.html img_1x="identifi-mental-models.png" img_2x="identifi-mental-models.png" class="wide" alt="Identifi mental models" %}
+{% include img.html img_1x="design-dept-toolbox.png" img_2x="design-dept-toolbox.png" class="wide" alt="Design department toolbox" %}
 
 # We need more designers!
 We quickly realized one designer jumping between multiple projects is not a solution. So we decided to hire more. I was in charge of the hiring process:
