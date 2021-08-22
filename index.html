@@ -19,8 +19,6 @@ homepage: yes
             </header>
             {% assign cases = site.cases | sort: 'date' %}
             {% for case in cases reversed %}
-                {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                {% if thecycle == 'odd' %}
                     <article class="w-100 flex tl mb4 mb5-ns items-center">
                         <section class="w-100 w-50-m w-50-l">
                             <img src="{{ site.url }}/assets/img/{{ case.thumbnail }}">
@@ -31,19 +29,6 @@ homepage: yes
                             <a href="{{ case.url }}" class="bg-black br-pill dib hover-bg-near-black link mt2 pa2 ph3 white">Read case study 👉</a>
                         </section>
                     </article>
-                {% endif %}
-                {% if thecycle == 'even' %}
-                    <article class="w-100 flex tl mb4 mb5-ns items-center">
-                        <section class="w-100 w-50-m w-50-l order-1-m order-1-l">
-                            <img src="{{ site.url }}/assets/img/{{ case.thumbnail }}">
-                        </section>
-                        <section class="pr3-l pr3-m w-100 w-50-m w-50-l order-0-m order-0-l">
-                            <h1 class="mb0 f3 f2-ns black">{{ case.title }}</h1>
-                            <p class="f5 mt2 black-80">{{ case.tagline }}</p>
-                            <a href="{{ case.url }}" class="bg-black br-pill dib hover-bg-near-black link mt2 pa2 ph3 white">Read case study 👉</a>
-                        </section>
-                    </article>
-                {% endif %}
             {% endfor %}
             
             
