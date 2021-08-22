@@ -18,7 +18,7 @@ homepage: yes
             </header>
             {% assign cases = site.cases | sort: 'date' %}
             {% for case in cases reversed %}
-                    <article class="w-100 flex tl mb4 mb5-ns items-center">
+                    <article class="w-100 flex flex-wrap tl mb4 mb5-ns items-center">
                         <section class="w-100 w-50-m w-50-l">
                             <img src="{{ site.url }}/assets/img/{{ case.thumbnail }}">
                         </section>
