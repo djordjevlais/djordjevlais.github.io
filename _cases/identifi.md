@@ -31,7 +31,7 @@ The first thing I noticed is that a couple of different personas (or jobs) start
 Users were mostly using the Slack integration and never bothered opening the web app, so they had no idea about which features existed. Sometimes they thought certain features are available only to admins.
 
 <p class="bg-light-yellow bg-near-white bg-washed-yellow br3 pa3">
-<strong>💡 My suggestion:<strong> Bring onboarding to where they are. Use Slack bot to introduce a new feature every day, and promote rarely used features inside the ones they're already using.
+<strong class="db">💡 My suggestion:</strong> Bring onboarding to where they are. Use Slack bot to introduce a new feature every day, and promote rarely used features inside the ones they're already using.
 </p>
 
 💡 **My suggestion:** Bring onboarding to where they are. Use Slack bot to introduce a new feature every day, and promote rarely used features inside the ones they're already using.
