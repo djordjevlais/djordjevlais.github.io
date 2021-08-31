@@ -48,3 +48,8 @@ We've managed to make the headlines of all most important Pakistani tech news so
 After the accelerator launched, the **style guide** and **templates** I've created made it a lot easier for other designers to create everything from social media graphics and company swag, to new landing pages and newsletters. It's great seeing your work evolve and your teammates building on top of it!
 
 The website was changed significantly since then, but you can still see a couple of pages I designed, such as <a href="https://www.hov.co/accelerator">HOV Accelerator landing page</a> and <a href="https://www.hov.co/funded">HOV Funded course landing page</a>.
+
+<div class="bg-washed-yellow pa3 br3 mt5">
+<p class="lh-copy">👉 Next case study: <a href="https://djordje.work/cases/design-dept/">Building HOV’s design department as Lead Designer
+</a></p>
+</div>

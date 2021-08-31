@@ -68,5 +68,6 @@ The research served as a foundation for changes Marko and Estella designed in th
 
 Additionally, this experience helped me finally figure out a not-perfect-but-good-enough structure for organizing user research in Notion which we could reuse on all projects. It's now a lot easier to make sure everyone on the team actually sees the results of the research. If you'd like to get access to these templates or just chat about it, feel free to reach out via [email](mailto:dzvlais@gmail.com) or [Twitter](https://twitter.com/djordjevlais)! 
 
-
-
+<div class="bg-washed-yellow pa3 br3 mt5">
+<p class="lh-copy">👉 Next case study: <a href="https://djordje.work/cases/hov/">Designing and evolving HOV's brand and website</a></p>
+</div>
