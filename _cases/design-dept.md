@@ -65,3 +65,8 @@ We could finally see how people are using our products and trust the data. And o
 We're now a team of 7 designers, and I'm really proud of each one of them. We have workflows and rituals that are constantly evolving and improving. There's a lot more attention to how products work and what they look like at HOV since we started.
 
 I've learned a lot during this time. Helping junior designers level up taught me patience, something I was definitely lacking during my freelance years. Helping organize the design department forced me to zoom out and look at the design from a whole new perspective. But when I look back, the thing that stands out the most is people. We laughed together, cried together, learned together. It's never just about work.
+
+<div class="bg-washed-yellow pa3 br3 mt5">
+<p class="lh-copy">👉 From the archive: <a href="https://djordje.work/portfolio/lzs/">Little Zebra Shopper
+</a></p>
+</div>
