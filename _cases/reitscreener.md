@@ -62,6 +62,6 @@ Looking back, one thing I would do differently this time around is **spending mo
 
 I'm no longer working on REITScreener (my fellow teammate Estella took over the design duties) but you can still see some of my work on [REITScreener website](https://reitscreener.com/screener/table)
 
-<div class="bg-near-white pa3">
-👉 Next case study: <a href="https://djordje.work/cases/identifi/">Helping teams collaborate remotely</a>
+<div class="bg-washed-yellow pa3 br3 mt5">
+<p class="lh-copy">👉 Next case study: <a href="https://djordje.work/cases/identifi/">Helping teams collaborate remotely</a></p>
 </div>
