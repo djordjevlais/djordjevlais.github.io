@@ -18,7 +18,7 @@ He was already running a successful series of seminars that helped people start 
 He came to us with an idea for a powerful tool that would solve all these problems: users could take courses, stay up to date with market changes and analyze wins and losses, all in one place.
 
 We teamed up with Wien and worked closely with him to bring his vision to life. My job was everything design-related, from marketing to product.
-1. I've taken Wien's rough ideas and sketches and turned them into **user flows, wireframes and actual UI**
+1. I've taken Wien's data, rough ideas and sketches and turned them into **user flows, wireframes and prototypes**
 2. I've created a **simple brand** that would make all these moving parts feel like a cohesive and consistent experience
 3. I've designed a **UI kit** in Sketch, so we could quickly experiment and reiterate.
 
@@ -58,6 +58,10 @@ REITScreener is now a **profitable product**. It helped Wien scale his business 
 
 It was a great learning experience for me: I've learned a lot about designing super-complex responsive tables and charts.
 
-Looking back, one thing I would do differently this time around is **spending more time shaping the MVP**. We were overbuilding, and while we learned a lot of lessons along the way, those lessons were really expensive. We could have spent less time and money with user story mapping sessions and smaller experiments.
+Looking back, one thing I would do differently this time around is **spending more time on research and shaping the MVP**. We relied on existing research and data, and ended up overbuilding, and while we learned a lot of lessons along the way, those lessons were really expensive. We could have spent less time and money with user story mapping sessions and smaller experiments.
 
 I'm no longer working on REITScreener (my fellow teammate Estella took over the design duties) but you can still see some of my work on [REITScreener website](https://reitscreener.com/screener/table)
+
+<div class="bg-near-white pa3">
+👉 Next case study: <a href="https://djordje.work/cases/identifi/">Helping teams collaborate remotely</a>
+</div>
