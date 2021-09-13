@@ -27,7 +27,7 @@ On the fan side, the goals were to **stay up-to-date** with the creator's exclus
 
 I ran a series of workshops with founders, domain experts and developers, ranging from casual chats to user story mapping sessions, where we together tried to figure out how to help the creators achieve these goals while addressing the pain points they mentioned.
 
-{% include img.html img_1x="jamclout-mapping.png" img_2x="jamclout-mapping.png" alt="Jamclout user story mapping" %}
+{% include img.html img_1x="jamclout-mapping.png" img_2x="jamclout-mapping.png" alt="Jamclout user story mapping" class="wide" %}
 
 **Input from developers was especially important** here since we were relying on the existing Bitclout and Rally APIs for a lot of functionality so it was crucial we know how tricky would a certain implementation be.
 
@@ -36,7 +36,7 @@ I used a simple PRD, rough wireframes and user flows to try to get more feedback
 
 I also explored how other products are solving these problems. What's their terminology? How do they represent certain concepts visually? Why they use certain user flows?
 
-{% include img.html img_1x="jamclout-ux.png" img_2x="jamclout-ux.png" alt="Jamclout UX" %}
+{% include img.html img_1x="jamclout-ux.png" img_2x="jamclout-ux.png" alt="Jamclout UX" class="wide" %}
 
 After that, I took the screens into higher fidelity, creating a **simple, friendly-looking UI** and making use of **Figma components** to standardize the UI right from the start. This level of fidelity allowed me to create **Figma prototypes** which we used for: 
 - **Usability tests** for key user flows, which helped us improve them and in some cases even change the names of certain features so it would make more sense to users
@@ -47,12 +47,12 @@ There were some tricky challenges here:
 # Setting the creator up for success
 We knew that an empty profile is a big turn-off for both the creator and their fans, so we already populated some of it with the data from their Bitclout and Rally profiles. Then we gave them suggested steps to prepare their profile so the fans have a reason to be excited once they land on it. We even prepared a nice announcement message they can use to bring their current fans to Jamclout!
 
-{% include img.html img_1x="jamclout-onboarding.png" img_2x="jamclout-onboarding.png" alt="Jamclout onboarding" %}
+{% include img.html img_1x="jamclout-onboarding.png" img_2x="jamclout-onboarding.png" alt="Jamclout onboarding" class="wide" %}
 
 # Keeping it consistent
 Another challenge was different types of content. Creators could share their images, gifs, videos, NFTs, coin drops... I had to make sure the feed makes it easy to quickly skim through all these different content types and that the viewing experience is consistent and smooth no matter what's the media type. There are always so many edge cases when you're dealing with user-generated content, and it was my job to make sure their content looks great no matter what they do.
 
-{% include img.html img_1x="jamclout-feed.png" img_2x="jamclout-feed.png" alt="Jamclout feed and post" %}
+{% include img.html img_1x="jamclout-feed.png" img_2x="jamclout-feed.png" alt="Jamclout feed and post" class="wide" %}
 
 # Lessons & outcomes
 Jamclout already received an investment from [Rally](https://rally.io/) and formed partnerships with several artist incubators, whose members will be the first ones to start using the app in December during our closed beta.
