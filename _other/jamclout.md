@@ -1,7 +1,7 @@
 ---
 layout: newcase
 title: Connecting creators with their fans
-hero-bg: rgba(240, 239, 236, 100)
+hero-bg: rgba(252, 251, 248, 100)
 hero-img: portfolio-jamclout-hero.png
 thumbnail: portfolio-identifi-thumb.png
 tagline: 
