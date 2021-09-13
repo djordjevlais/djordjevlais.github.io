@@ -32,6 +32,8 @@ collections:
     output: false
   cases:
     output: true
+  other:
+    output: true
 
 sass:
   sass_dir: _sass
