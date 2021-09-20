@@ -33,8 +33,8 @@ I've designed a simple MVP that lets you:
 - Choose if you want to get a movie that you all want to see, or at least one person in the group
 - Get a movie recommendation, along with useful links for finding the movie online
 
-{% include img.html img_1x="movie-1.png" img_2x="movie-1.png" alt="Movie app 1" class="wide" %}
-{% include img.html img_1x="movie-2.png" img_2x="movie-2.png" alt="Movie app 2" class="wide" %}
+{% include img.html img_1x="movie-app-1.png" img_2x="movie-app-1.png" alt="Movie app 1" class="wide" %}
+{% include img.html img_1x="movie-app-2.png" img_2x="movie-app-2.png" alt="Movie app 2" class="wide" %}
 
 You can [check out a simple static prototype](https://djordje.work/film/onboarding.html). There's not much you can other than clicking the "Pick a movie for me" button, and I've coded quickly as a proof of concept, so it needs more work when it comes to accessibility and responsiveness.
 
