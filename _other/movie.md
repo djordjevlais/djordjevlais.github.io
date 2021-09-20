@@ -8,6 +8,7 @@ tagline:
 role: UX, UI, Branding, Prototyping
 ---
 
+# Problem
 I'm really into movies and I often have movie nights with different groups of friends. One thing I've noticed is that we'd often spend hours (or even days!) trying to decide what we're going to watch. Everyone's got their own watchlist, preferences, moods, and it's hard to find something that everyone wants to watch.
 
 After talking to some cinephile friends about their movie-watching experiences, I started thinking about a tool that would help us solve this.
@@ -36,10 +37,11 @@ I've designed a simple MVP that lets you:
 {% include img.html img_1x="movie-app-1.png" img_2x="movie-app-1.png" alt="Movie app 1" class="wide" %}
 {% include img.html img_1x="movie-app-2.png" img_2x="movie-app-2.png" alt="Movie app 2" class="wide" %}
 
+# Prototype
 You can [check out a simple static prototype](https://djordje.work/film/onboarding.html). There's not much you can other than clicking the "Pick a movie for me" button, and I've coded quickly as a proof of concept, so it needs more work when it comes to accessibility and responsiveness.
 
 {% include video.html video_src="movie-app-preview.mp4" %}
 
-The next steps I'm planning are:
+# The next steps I'm planning
 1. Build a simple React prototype so it would be easier to play with dynamic mock data
 2. Get in touch with Letterboxd's team and try to get beta API access, otherwise scrape the data manually ☹️
