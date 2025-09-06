@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Eleventy site to GitHub Pages
 
 on:
   push:
@@ -10,7 +10,6 @@ jobs:
   deploy:
     runs-on: ubuntu-22.04
     permissions:
-      contents: write
       pages: write
       id-token: write
     concurrency:
@@ -23,19 +22,20 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Persist npm cache
+      - name: Cache npm
         uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
 
-      - name: Persist Eleventy cache
+      - name: Cache Eleventy
         uses: actions/cache@v3
         with:
           path: ./.cache
           key: ${{ runner.os }}-eleventy-fetch-cache
 
-      - run: npm install
+      - name: Install dependencies
+        run: npm install
 
       - name: Build site
         run: npm run build-ghpages
@@ -48,4 +48,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: djordje.work # replace with your domain
+          cname: djordje.work
