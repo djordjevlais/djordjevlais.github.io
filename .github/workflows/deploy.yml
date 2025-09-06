@@ -44,6 +44,9 @@ jobs:
       - name: Check dist contents
         run: ls -la dist
 
+      - name: List dist contents
+        run: ls -R dist
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
