@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/djordjevlais
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://djordje.work
+  * I am djordjevlais (https://keybase.io/djordjevlais) on keybase.
+  * I have a public key with fingerprint 9442 DC36 11B1 28DE 9350  D8F7 7062 2319 5223 E836
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101982042324e76969cac1d798d6f9cf3898b87963e759512f669de468ed75a82940a",
+            "fingerprint": "9442dc3611b128de9350d8f7706223195223e836",
+            "host": "keybase.io",
+            "key_id": "706223195223e836",
+            "kid": "0101982042324e76969cac1d798d6f9cf3898b87963e759512f669de468ed75a82940a",
+            "uid": "812e9ab8ec74bd3dcf4731da59c9fb19",
+            "username": "djordjevlais"
+        },
+        "service": {
+            "hostname": "djordje.work",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488629600,
+    "expire_in": 157680000,
+    "prev": "a7f068acfbde64c7b2023ff8194339d7453727fdad4cd5ea1fd8d4216e19f886",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMInAnicrZJbSBVBGMfP6SadLEqNiihrK+litTO7O5dDRHSj8sEHIw2k4+7OrK6X
+3ePu8aiIBQU9BBVBFCQYPYRPphaYXaSjiAVSkhR5nooeVIyCKKSLWbNSD0GPvcww
+3/f//+b7Pr6BxXNDkfDD7OHzG0dzV4eH+lrqQiX3O8qaJMNljVK0SarisxevZtxP
+xKpsJkUlGciAEiirUIEqx4giauomYJgShixqWgqhxCCYIoVjjWoAWghRxlVEOMOa
+TiBVZV3KlyzbKede3LOdhMBSVYXMVBAABoCEcapoMiMWxjKCUAFUEycnChLGCtcP
+HKI4Q/f5DtsVMfGIzZb3D/1/rrtuFkcA5FQ3CDexajCFmZaKFcB0jZrUMgANhD73
+HL2GCzWrdD1WyZPVuu1LzfmSyCRtkwfDDbr5W7Wj3vWqhD/uuQnXdKtFpiKRiEcD
+Y6IxHijruRH7zYgZtsPEKIUhyT3fdh0pCoTSTNgBFKiEIEiRLOdLvCFuezxmBwoN
+IyLLQTTu8aRA6tiSEdFNy2AcqSY2oAwVyyKAqopCGVY1BUNsMZ2pJtO4DixGmAoB
+4oBa4g8p6KrWcQVbEXXq5YLp2+WOnqjzuNTcnyqdFwpHQgvmzwl2LBRZuPTP5j1t
+ypiRVla1FH2cjLafbF71Ed1Iff90aP3uvae7eovLWnNLyLupcT7U+dO6VeH3FS7v
+12Ymuhq723u7f5QezRlt+XBy/6PnI0WtPKft6r3p1rwVheOPC1jk9r7duTvf9Qz3
+bLv2ZImTulZ6M7Pyevb0lsZe1tFwdgPclHkjq3hm7/Sign3xy7mVvpM30Xf1QMbk
+1xM1r3pLm/ndhkXuwQuF6fClpWWdxVsHb9aeK8vCa05d2tX+YOrH6w8N32qewiVv
+woMrnq0bmzy9tvZiR+GLNmfg5S59qqT6zuG3ZFT+vOfLziODLs7336ZT9vuIfKW4
+dfv0mfRY+viyeFG/tzkjJy9Vc2zkF4OtQmQ=
+=ysJQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/djordjevlais
+
+==================================================================

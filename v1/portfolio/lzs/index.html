@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Little Zebra Shopper</title>
+    <meta name="author" content="Djordje Vlaisavljevic">
+    <meta name="description" content="Djordje Vlaisavljevic - Software designer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
+    <style type="text/css">
+        
+        @font-face{font-family:"Office Code Pro";src:url("/assets/fonts/officecodepro-bold-webfont.woff2") format("woff2"),url("/assets/fonts/officecodepro-bold-webfont.woff") format("woff");font-weight:700;font-style:normal}@font-face{font-family:"Office Code Pro";src:url("/assets/fonts/officecodepro-bolditalic-webfont.woff2") format("woff2"),url("/assets/fonts/officecodepro-bolditalic-webfont.woff") format("woff");font-weight:700;font-style:italic}@font-face{font-family:"Office Code Pro";src:url("/assets/fonts/officecodepro-light-webfont.woff2") format("woff2"),url("/assets/fonts/officecodepro-light-webfont.woff") format("woff");font-weight:100;font-style:normal}@font-face{font-family:"Office Code Pro";src:url("/assets/fonts/officecodepro-lightitalic-webfont.woff2") format("woff2"),url("/assets/fonts/officecodepro-lightitalic-webfont.woff") format("woff");font-weight:100;font-style:italic}@font-face{font-family:"Office Code Pro";src:url("/assets/fonts/officecodepro-regular-webfont.woff2") format("woff2"),url("/assets/fonts/officecodepro-regular-webfont.woff") format("woff");font-weight:400;font-style:normal}@font-face{font-family:"Office Code Pro";src:url("..fonts/officecodepro-regularitalic-webfont.woff2") format("woff2"),url("../fonts/officecodepro-regularitalic-webfont.woff") format("woff");font-weight:400;font-style:italic}body{font-family:"Office Code Pro",monospace}h1,h2,h3{font-family:"Rubik",sans-serif;font-weight:bold}.f-tiny{font-size:.75rem}p{line-height:1.666666}.hero{background-color:#ffd3d3}.measure-wide{max-width:40em !important}.nested-copy-line-height p,.nested-copy-line-height ul,.nested-copy-line-height ol{line-height:1.5;color:rgba(0,0,0,.8)}.nested-headline-sansserif h1,.nested-headline-sansserif h2,.nested-headline-sansserif h3,.nested-headline-sansserif h4,.nested-headline-sansserif h5,.nested-headline-sansserif h6{font-family:"Rubik",sans-serif}.nested-headline-size h1{font-size:1rem;text-transform:uppercase;letter-spacing:.1em;margin-top:4rem}.nested-headline-line-height h1,.nested-headline-line-height h2,.nested-headline-line-height h3,.nested-headline-line-height h4,.nested-headline-line-height h5,.nested-headline-line-height h6{line-height:1.25}.nested-img img{max-width:100%;display:block;height:auto;width:inherit}.nested-figure figure{max-width:100%;height:auto}.nested-embeds iframe,.nested-embeds embed,.nested-embeds object,.nested-embeds video{max-width:100%}.nested-hr hr{border:1px solid #fff;margin:2rem 0}.nested-code pre,.nested-code code{font-size:.875em;padding:.5em;margin:.5em 0;background-color:#eee;display:block;color:#444}.nested-list ul{padding-left:1em}.nested-list li{margin-top:.5rem;margin-bottom:1rem}.nested-dt dt{margin:.5rem 0}.nested-table table{border-collapse:collapse}.nested-table thead{border-bottom:2px solid #333}.nested-table th,.nested-table td{padding:.67rem .5rem;text-align:left}.nested-link a,.nested-link a:link,.nested-link a:visited,.nested-link a:hover,.nested-link a:active{color:#00e}.nested-blockquote blockquote{font-style:italic;font-size:1.2rem;-webkit-margin-start:0;-webkit-margin-end:0}@media screen and (min-width: 48em){.nested-big-image .wide{max-width:280%;position:relative;left:50%;transform:translateX(-50%)}ul,ol{-webkit-padding-start:0}.nested-big-image figcaption{margin-left:-4em;margin-right:-4em;text-indent:-0.4em;margin-top:2rem}.nested-list ul{-webkit-padding-start:0}.nested-blockquote blockquote p{margin-left:-4em;margin-right:-4em;text-indent:-0.4em;margin-bottom:2rem;margin-top:2rem;font-size:1.5rem}}.b-sides{background-image:url("/assets/img/selected-work-1@1x.jpg");background-repeat:no-repeat;background-size:contain;background-position:50% 50%;padding-bottom:42.88888889%;width:100%;max-width:450px;margin:0 auto 2rem;-webkit-animation:cycle 3s steps(1) infinite;animation:cycle 3s steps(1) infinite;-webkit-animation-play-state:running;animation-play-state:running}.b-sides:hover{-webkit-animation-play-state:paused;animation-play-state:paused}@-webkit-keyframes cycle{0%{background-image:url("/assets/img/selected-work-1@1x.jpg")}20%{background-image:url("/assets/img/selected-work-2@1x.jpg")}40%{background-image:url("/assets/img/selected-work-3@1x.jpg")}60%{background-image:url("/assets/img/selected-work-4@1x.jpg")}80%{background-image:url("/assets/img/selected-work-5@1x.jpg")}}@keyframes cycle{0%{background-image:url("/assets/img/selected-work-1@1x.jpg")}20%{background-image:url("/assets/img/selected-work-2@1x.jpg")}40%{background-image:url("/assets/img/selected-work-3@1x.jpg")}60%{background-image:url("/assets/img/selected-work-4@1x.jpg")}80%{background-image:url("/assets/img/selected-work-5@1x.jpg")}}.default-blue{color:#00e}
+    </style>
+    
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Little Zebra Shopper | Djordje Vlaisavljevic - Software designer</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Little Zebra Shopper" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Background Back in 2012, Hans-Peter van Leeuwen came to me with an awesome idea. He wanted to make a simple, colorful app for kids that would allow them to run their own pretend-shop and use a smartphone or a tablet as a cash register. But the app itself would be just a part of the story. There would also be printable pretend-products, which kids can print out, assemble and scan using the app’s barcode scanner. My job was to work closely with Hans-Peter and his talented iOS developer @puckipedia and design the UI, dozens of printable pretend-products, and a marketing website." />
+<meta property="og:description" content="Background Back in 2012, Hans-Peter van Leeuwen came to me with an awesome idea. He wanted to make a simple, colorful app for kids that would allow them to run their own pretend-shop and use a smartphone or a tablet as a cash register. But the app itself would be just a part of the story. There would also be printable pretend-products, which kids can print out, assemble and scan using the app’s barcode scanner. My job was to work closely with Hans-Peter and his talented iOS developer @puckipedia and design the UI, dozens of printable pretend-products, and a marketing website." />
+<link rel="canonical" href="http://localhost:4000/portfolio/lzs/" />
+<meta property="og:url" content="http://localhost:4000/portfolio/lzs/" />
+<meta property="og:site_name" content="Djordje Vlaisavljevic - Software designer" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-07-22T16:42:22+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Little Zebra Shopper" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-22T16:42:22+01:00","datePublished":"2025-07-22T16:42:22+01:00","description":"Background Back in 2012, Hans-Peter van Leeuwen came to me with an awesome idea. He wanted to make a simple, colorful app for kids that would allow them to run their own pretend-shop and use a smartphone or a tablet as a cash register. But the app itself would be just a part of the story. There would also be printable pretend-products, which kids can print out, assemble and scan using the app’s barcode scanner. My job was to work closely with Hans-Peter and his talented iOS developer @puckipedia and design the UI, dozens of printable pretend-products, and a marketing website.","headline":"Little Zebra Shopper","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/portfolio/lzs/"},"url":"http://localhost:4000/portfolio/lzs/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body class="">
+
+    <header class="flex justify-between items-center pa3 ph4-m ph5-l pv3-m pv3-l" style="background-color: rgba(87, 202, 239, 100);">
+    <a href="http://localhost:4000/" rel="home" class=""><img src="http://localhost:4000/assets/img/djordje-logo.svg"></a>
+    <nav class="black-80 ttu tracked">
+        <a href="http://localhost:4000/#work" class="f6 link pa3 black-80 dim">Work</a>
+        <a href="http://localhost:4000/about-me/" class="f6 link pa3 black-80 dim">About me</a>
+    </nav>
+</header>
+
+    <section class="hero" style="background-color: rgba(87, 202, 239, 100);">
+        
+            <img class="center tc db mw7 w-100" src="http://localhost:4000/assets/img/hero-lzs.jpg">
+        
+
+        
+
+    </section>
+
+    <main class="pb4 pb5-ns" aria-label="Content">
+        <header class="cf tl pv4 pv4-ns ph4 ph5-ns bb b--black-10">
+    <div class="center mw9">
+        <section class="fl w-100 w-50-l pr5-ns">
+            <h1 class="f3 f2-ns pb2 mv0 lh-title">Little Zebra Shopper</h1>
+            <p class="f5 black-80">Raising the bar for pretend-play 👶</p>
+        </section>
+        <section class="fl w-100 w-50-l">
+            <p class="black-80 lh-copy ttu tracked f-tiny"><span class="b ttu tracked">Role: </span>art direction, user research, design, illustration, development</p>
+            <p class="black-80 lh-copy ttu tracked f-tiny"><span class="b ttu tracked">Stack: </span>wordpress, illustrator, photoshop</p>
+        </section>
+    </div>
+</header>
+
+<article class="center f5 measure-wide pa3 nested-copy-line-height nested-headline-sansserif nested-headline-size nested-headline-line-height nested-img nested-figure nested-embeds nested-big-image nested-hr nested-code nested-list nested-blockquote nested-dt nested-table nested-link nested-form">
+    <h1 id="background">Background</h1>
+<p>Back in 2012, Hans-Peter van Leeuwen came to me with an awesome idea. He wanted to make a simple, colorful app for kids that would allow them to run their own pretend-shop and use a smartphone or a tablet as a cash register. But the app itself would be just a part of the story. There would also be printable pretend-products, which kids can print out, assemble and scan using the app’s barcode scanner.  My job was to work closely with Hans-Peter and his talented iOS developer @puckipedia and design the UI, dozens of printable pretend-products, and a marketing website.</p>
+
+<h1 id="cash-register-but-for-toddlers">“Cash register but for toddlers”</h1>
+<p>While there were numerous pretend-shop apps in the App Store at the time, most of them just used the supermarket theme as makeup for simple puzzle or math games. But with this app we wanted to tie different types of learning through playing into one cute package:</p>
+
+<ul>
+  <li>Kids would learn how to use glue, paper scissors and their fingers to assemble printouts into pretend-products</li>
+  <li>They would test and improve their arithmetic skills by calculating the change for their customers</li>
+  <li>And finally, the app is just a tool here—the real fun comes from role-playing and socializing with their loyal customers i.e. friends and family</li>
+</ul>
+
+<p>I tested various supermarket, cash register, barcode-scanner and education apps for kids, made notes about what works and what doesn’t, and started sketching. We needed something simple, ideally with all features on just one screen, but with enough space for chunky, colorful buttons, to make it easy for chubby baby-fingers. 👼</p>
+
+<figure class="mw8 center pa4-ns mv4">
+    <img src="http://localhost:4000/assets/img/lzs_wireframes@1x.jpg" srcset="http://localhost:4000/assets/img/lzs_wireframes@1x.jpg 1x
+        
+        , http://localhost:4000/assets/img/lzs_wireframes@2x.jpg 2x
+        " class="wide" alt="Little Zebra Shopper wireframes" />
+
+        
+</figure>
+
+<p>Since Hans-Peter was bootstrapping the product as a side-project born from his love for kids, there wasn’t a huge budget reserved for testing. That meant I had to hang out at the local mall and convince families with young kids to try out the app, recording their reactions, thoughts and questions (tip: malls are a great place for this, because people are usually relaxed and not in much of a hurry.) This gave us some valuable insight and helped us simplify the app even further—just one screen, simple icons and automatic scanning of products when you put them above your camera.</p>
+
+<h1 id="products">Products</h1>
+<p>For the release, I designed 20 different products from all kinds of categories. They were basically supermarket-staples as seen with the eyes of a 7-year-old kid, but we made sure to include healthy stuff too! The real challenge here was making them all feel like a part of the same cartoonish universe, but still with enough variety as if they’re produced by different companies. Yes, Nicky’s Candy Store really makes the best licorice and lollipops in Little Zebra Shopper universe, but they simply can’t compete with Super Fruity when it comes to cereals. #lore #universebuilding #overthinkingit</p>
+
+<figure class="mw8 center pa4-ns mv4">
+    <img src="http://localhost:4000/assets/img/lzs_products_1@1x.jpg" srcset="http://localhost:4000/assets/img/lzs_products_1@1x.jpg 1x
+        
+        , http://localhost:4000/assets/img/lzs_products_1@2x.jpg 2x
+        " class="wide" alt="Little Zebra Shopper products" />
+
+        
+</figure>
+
+<p>I also had to make sure they’re easy to print, cut out, fold and glue, even when parents aren’t around to help.</p>
+
+<h1 id="website">Website</h1>
+<p>I also designed and built the Little Zebra Shopper website, which explains how the app works using simple language, pictures, videos and gifs. There is also a section where users can download new product packs to use with the app. The website is running on Wordpress, Timber and Advanced Custom Fields, making it easy for Hans-Peter to add new product sets and blog posts.</p>
+
+<figure class="mw8 center pa4-ns mv4">
+    <img src="http://localhost:4000/assets/img/lzs_website@1x.jpg" srcset="http://localhost:4000/assets/img/lzs_website@1x.jpg 1x
+        
+        , http://localhost:4000/assets/img/lzs_website@2x.jpg 2x
+        " class="wide" alt="Little Zebra Shopper website" />
+
+        
+</figure>
+
+<h1 id="updates">Updates</h1>
+<p>After amazing initial response (over 1000 downloads in a week!), we had a long list of improvements, feedback, wishes and demands…</p>
+
+<p>First things first: it’s hard to keep afloat if you can’t get paid. So I designed official Little Zebra Shoper money and credit cards, which can be used to “pay” for products.</p>
+
+<div class="flex nl7-l nr7-l mw9 flex-wrap mv5">
+    <div class="w-100 w-50-ns self-center pa2-l">
+        <img src="http://localhost:4000/assets/img/lzs-money-small.gif" class="wide" />
+    </div>
+    <div class="w-100 w-50-ns self-center pa2-l">
+        <img src="http://localhost:4000/assets/img/lzs-coins-small.gif" class="wide" />
+    </div>
+</div>
+
+<p>We also partnered with folks from <a href="http://www.pretendasaurus.com/">Pretendasaurus</a> and designed a special set of products for pets.</p>
+
+<figure class="mw8 center pa4-ns mv4">
+    <img src="http://localhost:4000/assets/img/lzs_products_2@1x.jpg" srcset="http://localhost:4000/assets/img/lzs_products_2@1x.jpg 1x
+        
+        , http://localhost:4000/assets/img/lzs_products_2@2x.jpg 2x
+        " class="wide" alt="Little Zebra Shopper products" />
+
+        
+</figure>
+
+<p>On popular request, we also added official Little Zebra Shopper barcode stickers, which you can add to any old regular product to add it to your pretend-shop.</p>
+
+<figure class="mw8 center pa4-ns mv4">
+    <img src="http://localhost:4000/assets/img/lzs_stickers@1x.jpg" srcset="http://localhost:4000/assets/img/lzs_stickers@1x.jpg 1x
+        
+        , http://localhost:4000/assets/img/lzs_stickers@2x.jpg 2x
+        " class="wide" alt="Little Zebra Shopper stickers" />
+
+        
+</figure>
+
+<h1 id="results">Results</h1>
+
+<p>As of 2016, Little Zebra Shopper has:</p>
+
+<ul>
+  <li>more than 200.000 downloads 🌍</li>
+  <li>a 4-star average rating  💫</li>
+  <li>recommendations from <a href="http://www.theimum.com/2013/11/little-zebra-shopper-review/">awesome blogs</a> and <a href="https://itunes.apple.com/us/book/apps-playgrounds-100-best/id775722821?mt=11&amp;ign-mpt=uo%3D4">app guides</a> 👍</li>
+  <li>mentions in <a href="http://kidscreen.com/2014/02/14/living-the-idream-opportunities-and-challenges-in-the-childrens-app-market/">talks</a> and <a href="http://www.thechildrensmediaconference.com/blog/2013/07/06/top-10-trends-in-childrens-apps/">conferences</a> 🎤</li>
+  <li>been used in <a href="http://twoteachersoneblog.weebly.com/blog/little-zebra-shopper-app-teaching-money">schools</a> and <a href="http://www.bootheelyouthmuseum.org/">museums</a> 🎓</li>
+</ul>
+
+</article>
+    </main>
+    
+    <section class="hero pa4 tc">
+    <h1 class="lh-title f3 f2-ns">Want to work on something cool together? <span class="db di-ns"><a href="http://localhost:4000/about-me/" class="default-blue dim">Get in touch.</a> 🦆✉️</span></h1>
+</section>
+    
+    <footer class="bg-black pv5 ph3">
+    <section class="mw9 center tc white-80">
+        <p class="f-tiny">© 2021 Djordje Vlaisavljevic. All Rights Reserved.</p>
+        <p class="f-tiny">Made with 👐 in <a href="https://www.google.rs/maps/place/%D0%91%D1%80%D0%B0%D1%9B%D0%B5+%D0%88%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B,+%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4/@44.7698159,20.4819917,15z/data=!3m1!4b1!4m5!3m4!1s0x475a70faa644ec3b:0xfc429552cd8c9fee!8m2!3d44.7725087!4d20.4902702?hl=sr" class="white-80 link underline">Jerković</a>.</p>
+    </section>
+</footer>
+</body>
+
+</html>

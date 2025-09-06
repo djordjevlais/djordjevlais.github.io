@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-22T16:42:22+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Djordje Vlaisavljevic - Software designer</title><subtitle>Djordje Vlaisavljevic - Software designer
+</subtitle><entry><title type="html">Side Projects, Itches &amp;amp; Bubbles</title><link href="http://localhost:4000/side-projects-itches-and-bubbles/" rel="alternate" type="text/html" title="Side Projects, Itches &amp;amp; Bubbles" /><published>2017-03-14T00:00:00+00:00</published><updated>2017-03-14T00:00:00+00:00</updated><id>http://localhost:4000/side-projects-itches-bubbles</id><content type="html" xml:base="http://localhost:4000/side-projects-itches-and-bubbles/"><![CDATA[<h1 id="problems">“Problems”</h1>
+<p>There are some problems no one is really having. They usually sound something like this:</p>
+
+<blockquote>
+  <p>“Hmmm I wonder what would Wikipedia look like with a super-thin font and ridiculously big shadows? Oh, and each article has a gorgeous, hi-res image to go with it. Oh, and I know absolutely nothing about their constraints, technical debts or priorities.”</p>
+</blockquote>
+
+<p>This is only good for two things: drawing practice and writing clickbait articles.</p>
+
+<figure class="mw8 center pa4-ns mv4">
+    <img src="http://localhost:4000/assets/img/browser_facebook@2x.jpg" srcset="http://localhost:4000/assets/img/browser_facebook@2x.jpg 1x
+        " class="wide" alt="My Facebook landing page redesign (rejected 😏)" />
+
+        
+        <figcaption class="f6 black-60 tc image-caption">My Facebook landing page redesign (rejected 😏)</figcaption>
+        
+</figure>
+
+<h1 id="scratching-your-own-itch">Scratching your own itch</h1>
+<p>Okay, how about you tackle your own problem? You’ll have at least one user, right? Jason Fried and Linus Torvalds would approve, right? Sure, scratching your own itch makes business sense. There are lots of people just like you, with those same problems. Especially if you’re white, male, healthy and well paid.</p>
+
+<figure class="mw8 center pa4-ns mv4">
+    <img src="http://localhost:4000/assets/img/white-men.jpg" srcset="http://localhost:4000/assets/img/white-men.jpg 1x
+        " class="wide" alt="White men" />
+
+        
+</figure>
+
+<p>But that also means there are lots of people working on solving your problems, be they big or small, and you can usually get the solution in any size, shape and color that you want. If you’re confident that you’re bringing something new to the table, by all means go ahead. But ask yourself if the world really needs another to-do app.</p>
+
+<h1 id="pop-the-bubble">Pop the bubble</h1>
+<p>There are lots of people who are nothing like you, too. Their experience is wildly different from yours. And some of them are not in a position where they can solve their problems. Disabilities, mental health disorders, immigration and workplace bullying are all problems tons of people are going through every day and there are ways you can help them using your skills. Open your eyes, get out of your bubble, meet different people. Hell, why stop at people. I’m sure stray dogs have tons of problems and they can’t code. 😮</p>
+
+<figure class="mw8 center pa4-ns mv4">
+    <img src="http://localhost:4000/assets/img/dog-coding.jpg" srcset="http://localhost:4000/assets/img/dog-coding.jpg 1x
+        " class="wide" alt="Been waiting to use this pic in an article since 2011." />
+
+        
+        <figcaption class="f6 black-60 tc image-caption">Been waiting to use this pic in an article since 2011.</figcaption>
+        
+</figure>
+
+<p>That’s where you step in. So, where to start?</p>
+
+<ul>
+  <li>Talk to people who have experience with these issues. Talk to your friends. Visit forums and <a href="https://www.reddit.com/r/nonprofitprojects/">subreddits</a>. Listen. Try to notice patterns. It doesn’t have to be a huge “disruptive” app. Sometimes even a small website or a tiny twist on a generic app can help.</li>
+  <li>Get in touch with local organizations helping those in need and try to find ways in which your skills can be helpful.</li>
+  <li>There are dozens of organizations looking for online volunteers with design or coding skills: <a href="https://www.onlinevolunteering.org/en">United Nations Volunteers</a>, <a href="http://www.idealist.org/info/Volunteer/Online">Idealist</a>, <a href="https://www.catchafire.org/">Catchafire</a>, <a href="https://www.volunteermatch.org/">VolunteerMatch</a>, <a href="https://www.weareindivisible.us/">Indivisible</a>, <a href="https://www.goodcompany.com.au/search/SearchVacancies.aspx?sortby=VacancyName&amp;skillcatid=2">GoodCompany</a>, <a href="https://www.taprootplus.org/">Taproot+</a>, <a href="https://www.project501.com/">Project 501</a>, <a href="https://www.dosomething.org/">DoSomething</a>, <a href="https://www.gozaround.com/">GozAround</a>, <a href="https://www.youvo.org/">youvo</a>… I made <a href="http://djordje.work/popthebubble/">a list here</a> — it’s an ongoing effort, so <a href="https://github.com/djordjevlais/popthebubble">feel free to submit</a> anything you can think of.</li>
+</ul>
+
+<p>There you go. You have a great privilege of being in the position where you can create things that help other people. Let’s make it count. 🌈</p>]]></content><author><name></name></author><summary type="html"><![CDATA[“Problems” There are some problems no one is really having. They usually sound something like this:]]></summary></entry></feed>
