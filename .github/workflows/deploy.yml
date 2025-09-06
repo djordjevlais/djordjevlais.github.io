@@ -12,6 +12,7 @@ jobs:
     permissions:
       pages: write
       id-token: write
+      contents: write   # required to push to gh-pages branch
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
