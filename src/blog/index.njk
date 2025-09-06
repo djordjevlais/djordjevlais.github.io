@@ -1,0 +1,23 @@
+---
+layout: base.njk
+title: Blog
+---
+
+# Blog
+
+Welcome to my blog! Here I share my thoughts on web development, technology, and my learning journey.
+
+<div class="prose prose-lg max-w-none">
+    <div class="grid gap-8 mt-8">
+        {% for post in collections.posts | reverse %}
+        <article class="bg-white p-6 rounded-lg shadow-sm border">
+            <h2 class="text-2xl font-bold mb-2">
+                <a href="{{ post.url }}" class="text-gray-900 hover:text-blue-600">{{ post.data.title }}</a>
+            </h2>
+            <p class="text-gray-600 mb-4">{{ post.data.date }}</p>
+            <p class="text-gray-700">{{ post.data.description }}</p>
+            <a href="{{ post.url }}" class="text-blue-600 hover:text-blue-800 font-medium">Read more →</a>
+        </article>
+        {% endfor %}
+    </div>
+</div>
