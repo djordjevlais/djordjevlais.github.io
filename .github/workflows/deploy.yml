@@ -2,11 +2,13 @@ name: Deploy Eleventy site to GitHub Pages
 
 on:
   push:
-    branches: [ master ]   # or main, depending on your default branch
+    branches: [ master ]  # or main, depending on your default branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      artifact-name: production-files
     steps:
       - uses: actions/checkout@v4
 
@@ -35,13 +37,19 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download artifact
+      - name: Checkout repo (needed for deploy)
+        uses: actions/checkout@v4
+
+      - name: Download artifact from build
         uses: actions/download-artifact@v4
         with:
           name: production-files
-          path: .
+          path: _site
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # optional: specify folder explicitly if needed
+          folder: _site
