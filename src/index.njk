@@ -3,231 +3,193 @@ layout: base.njk
 title: Home
 ---
 
-<div class="flex flex-col items-center">
-    <header class="max-w-3xl mx-4 sm:mx-6 lg:mx-8 w-full pt-24">
-        <nav>
-            <div class="flex justify-between items-center py-6">
-                <h1><a href="/" class="no-underline">Đorđe Vlaisavljević</a></h1>
-                <ul class="flex space-x-8">
-                    <li><a href="/" class="">Email me</a></li>
-                </ul>
-            </div>
-        </nav>
+<div class="flex flex-col items-center px-4 pt-4 sm:pt-32 mb-16">
+    <header class="max-w-2xl w-full mb-20">
+        <div class="flex justify-between items-center mb-6">
+            <h1><a href="/" class="no-underline">Đorđe Vlaisavljević</a></h1>
+            <div class="flex items-center gap-3"><span class="rounded-full block h-2 w-2 bg-[#EF85D6] shadow-[0px_0px_5px_#EF85D6] animate-pulse"></span><span>Available</span></div>
+        </div>
     </header>
-    <main class="flex-grow flex flex-col items-center w-full py-12">
-        <div class="md:grid-cols-2 gap-8 pt-16 pb-24 max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8">
-            {# <div><p>Now</p></div> #}
+    <main role="main" id="main-content" class="flex-grow flex flex-col items-center w-full mb-12">
+        <div class="mb-32 max-w-2xl w-full">
+            <div class="w-24 h-auto mb-6 sm:mb-5 rounded-md overflow-hidden">
+                {% image "me-dither.png", "Dithered photo of me" %}
+            </div>
             <div class="md:col-start-2">
-                <p class="mb-8">
-                    I’m a software designer with 10+ years of experience based in Lisbon, Portugal. Previously I worked at <a href="https://ghost.org">Ghost</a> and <a href="https://hov.co">High Output Ventures</a>.
+                <p class="mb-10 sm:mb-8">
+                    I’m a software designer with 10+ years of experience based in Portugal. Previously, I worked at <a href="https://ghost.org">Ghost</a> and <a href="https://hov.co">High Output Ventures</a>.
                 </p>
-                <p class="mb-8">
-                    Right now, I’m looking for a team of kind, talented people working on useful and ethical digital products.
-                </p>
+                {# <p class="mb-8">
+                    Right now, I’m looking for a team of kind, smart people working on useful and ethical digital products. <a href="mailto:dzvlais@gmail.com">Get in touch</a>.
+                </p> #}
+                <div class="max-w-[45rem] sm:-mx-6 mb-6 p-6 border-[#bee8e8] rounded-xl border relative">
+                    <span class="uppercase text-base tracking-wider font-medium absolute top-0 left-[24px] text-[#bee8e8] bg-[#122E2E] px-2 -translate-y-1/2">＊FYI＊</span>
+                    <p>Right now, I’m looking for a team of kind, smart people working on useful and ethical digital products. <a href="mailto:dzvlais@gmail.com" aria-label="Send email to me">Send me an email</a>.</p>
+                </div>
                 <div class="flex gap-3">
-                    <a href="/about/">
-                        Email me
-                    </a>
-                    <span class="text-[#8F785]">·</span>
-                    <a href="/contact/">
+                    <a href="https://www.linkedin.com/in/djordje-vlaisavljevic/">
                         LinkedIn
                     </a>
                     <span class="text-[#8F785]">·</span>
-                    <a href="/BlueSky/">
+                    <a href="https://bsky.app/profile/djordjevlais.bsky.social">
                         Bluesky
                     </a>
                     <span class="text-[#8F785]">·</span>
-                    <a href="/BlueSky/">
+                    <a href="https://www.are.na/dorde-vlaisavljevic/channels">
                         Are.na
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="my-5 text-left max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 border-b border-[#F8F785] pb-1 flex justify-between"><span>Work</span><span>⤵</span></div>
+        {% from "heading.njk" import heading %}
+        {{ heading("Work") }}
 
         <!-- Ghost -->
-        <div class="grid md:grid-cols-12 gap-8 py-16 max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8">
-            <div class="md:col-span-4">
-                <p>2021—2025</p>
+        <div class="md:grid md:grid-cols-12 gap-2 mb-16 max-w-2xl w-full">
+            <div class="md:col-span-3 hidden sm:block">
+                <p>2021–2025</p>
             </div>
-            <div class="md:col-span-8">
-                <a href="https://ghost.org" class="mb-1 block">Ghost</a>
-                <p class="mb-10">Senior product designer</p>
-                <p class="mb-10">An independent, non-profit organization building open-source tools for writers, journalists and publishers.</p>
+            <div class="md:col-span-9">
+                <a href="https://ghost.org" class="mb-1.5 block">Ghost</a>
+                <p class="mb-8">Senior product designer<span class="sm:hidden">, 2021–2025</span></p>
+                <p>An independent, non-profit organization building open-source tools for writers, journalists and publishers.</p>
             </div>
         </div>
 
-        <div class="max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 mb-10">
-            <p class="mb-5">Over the past year, I worked as lead designer on bringing social web features to Ghost. This turned Ghost publications into networked social profiles that people can find, follow, like, reply, repost and interact with, not just from Ghost, but also WordPress, Threads, Bluesky, Mastodon and others. bringing network effects to generate growth, and reaching new people.</p>
-            <p class="mb-5">We worked fast, shipping updates every week and iterating based on feedback from our passionate beta users. If you're curious, you can <a href="https://activitypub.ghost.org/archive/">read the entire journey in the changelog archive</a>.</p>
+        <div class="max-w-2xl w-full mb-20">
+            <p class="mb-5">Over the past year, I led design on bringing social web<sup>1,2</sup>, features to Ghost, helping users reach new audiences not just on Ghost, but also on WordPress, Threads, Bluesky, Mastodon and other platforms.</p>
+            <p>We worked fast—shipping updates every week and iterating based on feedback from our growing list of beta users. If you’re curious, you can <a href="https://activitypub.ghost.org/archive/">read the entire journey in the changelog archive</a>.</p>
         </div>
 
-        <div class="grid md:grid-cols-12 gap-8 py-16 max-w-[1440px] w-full mx-4 sm:mx-6 lg:mx-8">
-            <div class="md:col-span-4">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4">
-                    {# {% image "portfolio-activitypub-notes.png", "Short notes in Ghost" %} #}
-                    <video autoplay loop plays-inline muted src="/assets/videos/notes-feed.mov"></video>
+        <div class="grid sm:grid-cols-12 gap-8 mb-20 max-w-[1440px] w-full">
+            <div class="sm:col-span-6 md:col-span-5 md:col-start-2">
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4">
+                    <video autoplay loop muted playsinline webkit-playsinline preload="auto" src="/assets/videos/notes-feed.mov" title="Interacting with short-form notes in Ghost"></video>
                 </div>
-                <p><sup>1</sup> Interacting with short-form notes in Ghost <a href="#">(changelog post ↗)</a></p>
+                <p><sup>1</sup> Interacting with short-form notes in Ghost</p>
             </div>
-            <div class="md:col-span-6 md:col-start-7">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4">
-                    {# {% image "portfolio-activitypub-posts.png", "Long-form posts in Ghost" %} #}
-                    <video autoplay loop plays-inline muted src="/assets/videos/reader-view.mov"></video>
+            <div class="sm:col-span-6 md:col-span-5">
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4">
+                    <video autoplay loop muted playsinline webkit-playsinline preload="auto" src="/assets/videos/reader-view.mov" title="Reading long-form posts in Ghost, with reader customization, reading progress and table of contents"></video>
                 </div>
-                <p><sup>2</sup> Reading long-form posts in Ghost, with reader customization, reading progress and table of contents <a href="#">(changelog post ↗)</a></p>
+                <p><sup>2</sup> Reading long-form posts in Ghost, with reader customization, reading progress and table of contents</p>
             </div>
         </div>
 
-        <div class="max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 my-16">
-            <p class="mb-5">Before that, I worked on a dozen of features that help people: growth analytics<sup>2</sup>, improved onboarding<sup>3</sup>, two-factor authentication<sup>3</sup>, email notifications, rich media editor cards, and many more.</p>
-            {# <p class="mb-5">Before that, I worked on a dozen of features for publishers:</p>
-            <ul class="list-disc mb-5">
-                <li class="mb-2">Growth analytics<sup>2</sup></li>
-                <li class="mb-2">Improved onboarding<sup>3</sup></li>
-                <li class="mb-2">Recommendations</li>
-                <li class="mb-2">Free trials</li>
-                <li class="mb-2">Two-factor authentication</li>
-                <li class="mb-2">Email notifications</li>
-                <li class="mb-2">Rich media editor cards</li>
-                <li class="mb-2">and many more</li>
-            </ul> #}
-            <p class="mb-5">I've also led design on rebuilding internal tools, which took a cumbersome command-line interface and turned it into a smooth, responsive web-app, allowing Ghost's customer support team to help people in a faster and easier way.</p>
+        <div class="max-w-2xl w-full mb-20">
+            <p class="mb-6">Before that, I worked on dozens of features for publishers: <a href="https://ghost.org/changelog/member-growth/">growth analytics</a>, improved onboarding, <a href="https://ghost.org/changelog/free-trials/">free trials for memberships</a>, <a href="https://ghost.org/changelog/recommendations/">recommendations</a><sup>3</sup>, <a href="https://ghost.org/changelog/2fa/">two-factor authentication</a><sup>4</sup>, <a href="https://ghost.org/changelog/email-notifications/">email notifications</a>, <a href="https://ghost.org/changelog/product-cards/">rich media editor cards</a><sup>5</sup>, <a href="https://ghost.org/changelog/update-links/">fixing links in newsletters</a>, and many more.</p>
+            <p>I also led design on rebuilding internal tools, and turned a cumbersome command-line interface into a smooth, responsive web-app, allowing Ghost's customer support team to help people in half the time.</p>
         </div>
 
-        <div class="grid md:grid-cols-12 gap-8 py-16 max-w-[1440px] w-full mx-4 sm:mx-6 lg:mx-8">
-            <div class="md:col-span-5">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4 text-left">
-                    {% image "portfolio-recommendations.png", "Short notes in Ghost" %}
+        <div class="grid sm:grid-cols-12 gap-8 mb-20 max-w-[1440px] w-full">
+            <div class="sm:col-span-12 md:col-span-5">
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4 text-left">
+                    {% image "recommendations.png", "Cross-promote other publishers and help them grow their audience" %}
                 </div>
-                <p><sup>3</sup> Amplifying your favorite sites by recommending them to your audience – and getting recommended yourself <a href="#">(changelog post ↗)</a></p>
+                <p><sup>3</sup> Cross-promote other publishers and help them grow their audience <a href="https://ghost.org/changelog/recommendations/">(changelog post ↗)</a></p>
             </div>
-            <div class="md:col-span-4 md:col-start-9">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4">
-                    {% image "portfolio-2fa.png", "Long-form posts in Ghost" %}
+            <div class="sm:col-span-6 md:col-span-3">
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4">
+                    {% image "portfolio-2fa.png", "Safer logins with two-factor authentication" %}
                 </div>
-                <p><sup>4</sup> Safer logins with two-factor authentication <a href="#">(changelog post ↗)</a></p>
+                <p><sup>4</sup> Safer logins with two-factor authentication <a href="https://ghost.org/changelog/2fa/">(changelog post ↗)</a></p>
+            </div>
+            <div class="sm:col-span-6 md:col-span-4">
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4 text-left">
+                    <video autoplay loop muted playsinline webkit-playsinline preload="auto" src="/assets/videos/product-card.mov" title="Product cards let you easily add product reviews, recipes and more to your posts"></video>
+                </div>
+                <p><sup>5</sup> Product cards let you easily add product reviews, recipes and more to your posts <a href="https://ghost.org/changelog/product-cards/">(changelog post ↗)</a></p>
             </div>
         </div>
 
-        <div class="grid md:grid-cols-12 gap-8 py-16 max-w-[1440px] w-full mx-4 sm:mx-6 lg:mx-8">
-            <div class="md:col-span-6 md:col-start-7">
-                {# <div class="rounded-3xl border border-black/5 overflow-hidden mb-4 text-left">
-                    {% image "portfolio-product-card.png", "Short notes in Ghost" %}
-                </div> #}
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4 text-left">
-                    <video autoplay loop plays-inline muted src="/assets/videos/product-card.mov"></video>
-                </div>
-                <p><sup>7</sup> Product cards let you easily add product reviews, recipes and more to your posts <a href="#">(changelog post ↗)</a></p>
-            </div>
-        </div>
-
-        <div class="max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 my-16">
-            <p class="mb-5">Ghost is used by thousands of amazing journalists, writers and bloggers. It feels really good seeing how folks like <a href="https://www.404media.co/two-years-404-media-anniversary/">404 Media are using it for important journalism</a>, or how seasoned blogger and Stack Overflow co-founder Jeff Atwood chose it for <a href="https://blog.codinghorror.com/">his blog</a>.</p>
-            <p>I've learned a lot during my time at Ghost and I'll really miss the sweet and talented group working there. And Ghost is still the best tool to publish content online if you ask me—<a href="https://ghost.org">give it a try</a>.</p>
+        <div class="max-w-2xl w-full mb-24">
+            <p class="mb-5">Ghost is used by thousands of journalists, writers, and bloggers. It feels really good seeing how teams like <a href="https://www.404media.co/two-years-404-media-anniversary/">404 Media are using it for important journalism</a>, and I'm thankful for everything I learned from amazing people that worked there.</p>
         </div>
 
         <!-- HOV -->
-        <hr class="my-8 border-b border-[#F8F785] w-full max-w-3xl mx-4 sm:mx-6 lg:mx-8">
+        {% include "separator.njk"%}
 
-        {# <div class="my-8 w-full max-w-3xl mx-4 sm:mx-6 lg:mx-8 text-center">↓</div> #}
-
-
-        <div class="grid md:grid-cols-12 gap-8 py-16 max-w-3xl mx-4 sm:mx-6 lg:mx-8">
-            <div class="md:col-span-4">
-                <p>2017—2021</p>
+        <div class="md:grid md:grid-cols-12 gap-2 mb-16 max-w-2xl w-full">
+            <div class="md:col-span-3 hidden sm:block">
+                <p>2017–2021</p>
             </div>
-            <div class="md:col-span-8">
-                <a href="https://ghost.org" class="mb-1 block">High Output Ventures</a>
-                <p class="mb-10">Lead designer</p>
-                <p class="mb-10">A fully-remote venture studio that partners with industry experts to help them launch and scale startups.</p>
+            <div class="md:col-span-9">
+                <a href="https://hov.co" class="mb-1.5 block">High Output Ventures</a>
+                <p class="mb-8">Lead designer<span class="sm:hidden">, 2017–2021</span></p>
+                <p>A fully-remote venture studio that partners with industry experts to help them launch and scale startups.</p>
             </div>
         </div>
 
-        <div class="max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 my-16">
-            <p class="mb-5">I joined HOV as their first designer, helping grow the design department to 5 people while hiring, training and managing junior designers.</p>
-            <p>I also directly worked on products like REITScreener, HOV Accelerator and Identifi, where my job covered everything from helping stakeholders shape MVPs to doing user research and designing complex UIs.</p>
+        <div class="max-w-2xl w-full mb-20">
+            <p class="mb-5">I joined HOV as their first designer, helping grow the design department to 5 people, while hiring, training, and managing junior designers.</p>
+            <p>I also directly worked on products like REITScreener<sup>6</sup>, <a href="https://www.hov.co/accelerator">HOV Accelerator</a><sup>7</sup>, and Identifi, where my job covered everything from helping stakeholders shape MVPs<sup>8</sup>, to doing user research, and designing complex UIs.</p>
         </div>
 
-        <div class="grid md:grid-cols-12 gap-8 py-16 max-w-[1440px] w-full mx-4 sm:mx-6 lg:mx-8">
+        <div class="grid md:grid-cols-12 gap-8 mb-24 max-w-[1440px] w-full">
             <div class="md:col-span-4">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4">
-                    {# {% image "portfolio-activitypub-notes.png", "Short notes in Ghost" %} #}
-                    <video autoplay loop plays-inline muted src="/assets/videos/hov-accelerator.mov"></video>
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4">
+                    <video autoplay loop muted playsinline webkit-playsinline preload="auto" src="/assets/videos/hov-accelerator.mov" title="Landing page for the biggest Pakistani startup accelerator"></video>
                 </div>
-                <p><sup>14</sup> Landing page for HOV Accelerator</p>
+                <p><sup>7</sup> Landing page for the biggest Pakistani startup accelerator</p>
             </div>
             <div class="md:col-span-4">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4">
-                    {# {% image "portfolio-activitypub-posts.png", "Long-form posts in Ghost" %} #}
-                    {% image "mapping-user-stories.png", "Long-form posts in Ghost" %}
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4">
+                    {% image "mapping-user-stories.png", "Illustrations I did for explaining HOV's design process" %}
                 </div>
-                <p><sup>2</sup> Illustrations I did for explaining</p>
+                <p><sup>8</sup> Illustrations I did for explaining HOV's design process</p>
             </div>
             <div class="md:col-span-4">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4">
-                    {# {% image "portfolio-activitypub-posts.png", "Long-form posts in Ghost" %} #}
-                    {% image "reitscreener-demo.png", "Long-form posts in Ghost" %}
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4">
+                    {% image "reitscreener-demo.png", "Tool helping users make better decisions when investing in REITs" %}
                 </div>
-                <p><sup>15</sup> One of the iterations of the HOV homepage</p>
+                <p><sup>6</sup> Tool helping users make better decisions when investing in REITs</p>
             </div>
         </div>
 
-        <hr class="my-8 border-zinc-800 max-w-3xl mx-4 sm:mx-6 lg:mx-8">
+        {% include "separator.njk"%}
 
         <!-- Freelance -->
-        <div class="grid md:grid-cols-12 gap-8 py-16 max-w-3xl mx-4 sm:mx-6 lg:mx-8">
-            <div class="md:col-span-4">
-                <p>2010—2017</p>
+        <div class="md:grid md:grid-cols-12 gap-2 mb-48 max-w-2xl w-full">
+            <div class="md:col-span-3 hidden sm:block">
+                <p>2010–2017</p>
             </div>
-            <div class="md:col-span-8">
-                <a href="#" class="mb-1 block">Freelance</a>
-                <p class="mb-10">Designer, illustrator and frontend developer</p>
-                <p class="mb-10">Helped startups, artists and family businesses bring their vision to life through websites, apps,
+            <div class="md:col-span-9">
+                <a href="https://djordje.work/v1" class="mb-1.5 block">Freelance</a>
+                <p class="mb-8">Designer, illustrator, and frontend developer<span class="sm:hidden">, 2010–2017</span></p>
+                <p>Helped startups, artists, and indie creators bring their vision to life through websites, apps,
                     print, and video. Worked on everything from educational iPad apps for kids to websites for West Coast rappers.</p>
             </div>
         </div>
 
         <!-- About me -->
-        <div class="mt-5 mb-2 text-left max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 border-b border-[#F8F785] pb-1 flex justify-between"><span>About me</span><span>⤵</span></div>
-        <div class="max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 mb-16 mt-8">
-            <p class="mb-5">In my free time, I<sup>23</sup> enjoy diving into internet rabbit holes, digging through flea markets, and playing with my dumb dog<sup>24</sup>.</p>
-            <p>As a designer, I'm happiest when tackling complex problems, moving fast and learning a lot daily.</p>
+        {{ heading("About me") }}
+        <div class="max-w-2xl w-full mb-16">
+            <p class="mb-5">In my free time, I enjoy diving into internet rabbit holes, digging through flea markets, and playing with my ridiculous dog.</p>
+            <p>As a designer, I'm happiest when tackling complex problems, moving fast, and constantly learning new things.</p>
         </div>
 
-        <div class="grid md:grid-cols-12 gap-8 py-8 max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8">
-            <div class="md:col-span-6">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4">
-                    {# {% image "portfolio-activitypub-posts.png", "Long-form posts in Ghost" %} #}
-                    {% image "me.png", "Long-form posts in Ghost" %}
-                </div>
-                <p><sup>23</sup> I kinda look like this</p>
-            </div>
-            <div class="md:col-span-6">
-                <div class="rounded-3xl border border-black/5 overflow-hidden mb-4">
-                    {# {% image "portfolio-activitypub-posts.png", "Long-form posts in Ghost" %} #}
-                    {% image "beba.png", "Long-form posts in Ghost" %}
-                </div>
-                <p><sup>24</sup> My dog, Beba</p>
-            </div>
+        <div class="max-w-[45rem] sm:-mx-6 mb-40 p-6 border-[#bee8e8] rounded-xl border relative">
+            <span class="uppercase text-base tracking-wider font-medium absolute top-0 left-[24px] text-[#bee8e8] bg-[#122E2E] px-2 -translate-y-1/2">＊FYI＊</span>
+            <p>I'm looking for new opportunities, so if you think we'd be a good match, <a href="mailto:dzvlais@gmail.com">send me an email</a>.</p>
         </div>
 
         <!-- Footer -->
-        <div class="my-5 text-left max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 border-b border-[#F8F785] pb-1 flex justify-between"><span>Elsewhere</span><span>⤵</span></div>
-        <div class="max-w-3xl w-full mx-4 sm:mx-6 lg:mx-8 my-16">
-            <ul class="list-disc mb-5">
-                <li class="mb-2">Are.na ↗</li>
-                <li class="mb-2">Linkedin ↗</li>
-                <li class="mb-2">Bluesky ↗</li>
-                <li class="mb-2">Last.fm ↗</li>
-                <li class="mb-2">Github ↗</li>
+        {{ heading("Elsewhere") }}
+        <div class="max-w-2xl w-full mb-16">
+            <ul class="sm:list-disc mb-5">
+                <li class="mb-2"><a href="https://www.linkedin.com/in/djordje-vlaisavljevic/" aria-label="Linkedin profile">Linkedin ↗</a></li>
+                <li class="mb-2"><a href="https://bsky.app/profile/djordjevlais.bsky.social" aria-label="Bluesky profile">Bluesky ↗</a></li>
+                <li class="mb-2"><a href="https://www.are.na/dorde-vlaisavljevic/channels" aria-label="Are.na channels">Are.na ↗</a></li>
+                <li class="mb-2"><a href="https://github.com/djordjevlais" aria-label="Github profile">Github ↗</a></li>
+                <li class="mb-2"><a href="https://letterboxd.com/trojerucica/" aria-label="Letterboxd profile">Letterboxd ↗</a></li>
+                <li class="mb-2"><a href="https://www.last.fm/user/trojerucica" aria-label="Last.fm profile">Last.fm ↗</a></li>  
             </ul>
         </div>
 </main>
 
-<footer class="max-w-3xl mx-4 sm:mx-6 lg:mx-8 w-full py-24 text-left">
-    <p>&copy; 2024 Đorđe Vlaisavljević. All rights reserved.</p>
+<footer class="max-w-2xl  w-full py-24 text-left">
+    <p>&copy; 2025 Đorđe Vlaisavljević. All rights reserved.</p>
 </footer>
 
 </div>
