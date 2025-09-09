@@ -37,3 +37,14 @@ a:hover {
   /* color: #EF85D6; */
   /* color: #f6f5da; */
 }
+
+/* Heading counter */
+main {
+  counter-reset: headingIndex;
+}
+
+.heading-block h2 + span::before {
+  counter-increment: headingIndex;
+  content: counter(headingIndex, decimal-leading-zero);
+  display: inline-block;
+}
