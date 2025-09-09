@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Home
+title: 
 ---
 
 <div class="flex flex-col items-center px-4 pt-4 sm:pt-32 mb-16">
@@ -12,17 +12,14 @@ title: Home
     </header>
     <main role="main" id="main-content" class="flex-grow flex flex-col items-center w-full mb-12">
         <div class="mb-32 max-w-2xl w-full">
-            <div class="w-24 h-auto mb-6 sm:mb-5 rounded-md overflow-hidden">
+            <div class="w-24 h-auto mb-6 rounded-md overflow-hidden">
                 {% image "me-dither.png", "Dithered photo of me" %}
             </div>
             <div class="md:col-start-2">
-                <p class="mb-10 sm:mb-8">
+                <p class="mb-10">
                     I’m a software designer with 10+ years of experience based in Portugal. Previously, I worked at <a href="https://ghost.org">Ghost</a> and <a href="https://hov.co">High Output Ventures</a>.
                 </p>
-                {# <p class="mb-8">
-                    Right now, I’m looking for a team of kind, smart people working on useful and ethical digital products. <a href="mailto:dzvlais@gmail.com">Get in touch</a>.
-                </p> #}
-                <div class="max-w-[45rem] sm:-mx-6 mb-6 p-6 border-[#bee8e8] rounded-xl border relative">
+                <div class="max-w-[45rem] sm:-mx-6 mb-8 p-6 border-[#bee8e8] rounded-xl border relative">
                     <span class="uppercase text-base tracking-wider font-medium absolute top-0 left-[24px] text-[#bee8e8] bg-[#122E2E] px-2 -translate-y-1/2">＊FYI＊</span>
                     <p>Right now, I’m looking for a team of kind, smart people working on useful and ethical digital products. <a href="mailto:dzvlais@gmail.com" aria-label="Send email to me">Send me an email</a>.</p>
                 </div>
@@ -84,8 +81,10 @@ title: Home
 
         <div class="grid sm:grid-cols-12 gap-8 mb-20 max-w-[1440px] w-full">
             <div class="sm:col-span-12 md:col-span-5">
-                <div class="rounded-xl border border-black/5 overflow-hidden mb-4 text-left">
-                    {% image "recommendations.png", "Cross-promote other publishers and help them grow their audience" %}
+                <div class="rounded-xl border border-black/5 overflow-hidden mb-4 text-left crossfade bg-white">
+                    {% image "recommendations-1.png", "Cross-promote other publishers and help them grow their audience" %}
+                    {% image "recommendations-2.png", "Cross-promote other publishers and help them grow their audience" %}
+                    {% image "recommendations-3.png", "Cross-promote other publishers and help them grow their audience" %}
                 </div>
                 <p><sup>3</sup> Cross-promote other publishers and help them grow their audience <a href="https://ghost.org/changelog/recommendations/">(changelog post ↗)</a></p>
             </div>
