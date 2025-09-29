@@ -1,12 +1,20 @@
 {
   "name": "new-portfolio",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build:css:prod": "npx tailwindcss -i ./src/assets/css/style.css -o ./dist/assets/css/style.css --minify",
-    "build:11ty": "npx @11ty/eleventy",
+    "build:css": "npx tailwindcss -i ./src/assets/css/style.css -o ./dist/assets/css/style.css --watch",
+    "build:11ty": "npx eleventy",
     "build": "npm run build:css:prod && npm run build:11ty",
-    "build-ghpages": "npm run build:css:prod && npx @11ty/eleventy --pathprefix=/"
+    "build:css:prod": "npx tailwindcss -i ./src/assets/css/style.css -o ./dist/assets/css/style.css --minify",
+    "start": "concurrently \"npm run build:css\" \"npx eleventy --serve\"",
+    "dev": "npm start"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
