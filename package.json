@@ -9,7 +9,8 @@
     "build": "npm run build:css:prod && npm run build:11ty",
     "build:css:prod": "npx tailwindcss -i ./src/assets/css/style.css -o ./dist/assets/css/style.css --minify",
     "start": "concurrently \"npm run build:css\" \"npx eleventy --serve\"",
-    "dev": "npm start"
+    "dev": "npm start",
+    "build-ghpages": "npm run build:css:prod && npx @11ty/eleventy --pathprefix=/"
   },
   "keywords": [],
   "author": "",
