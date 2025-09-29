@@ -18,6 +18,11 @@
   }
 }
 
+::selection {
+  background-color: #EF85D6;
+  color: #24091e;
+}
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
