@@ -7,10 +7,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"src/assets/videos": "assets/videos"});
   eleventyConfig.addPassthroughCopy({"src/assets/js": "assets/js"});
   eleventyConfig.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/sitemap.xml");
 
   // Copy the archived site as-is
   eleventyConfig.addPassthroughCopy("v1");
-  
+
   // Watch for changes during development
   eleventyConfig.addWatchTarget("./src/assets/css/");
   eleventyConfig.addWatchTarget("./src/assets/js/");
