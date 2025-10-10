@@ -88,3 +88,13 @@ main {
 @media (prefers-reduced-motion: reduce) {
   .crossfade picture { animation: none; opacity: 1; }
 }
+
+blockquote {
+  text-indent: -0.45em; 
+}
+@​supports (hanging-punctuation: first) {
+  blockquote {
+    text-indent: 0;
+    hanging-punctuation: first;
+  }
+}
