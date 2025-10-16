@@ -30,7 +30,7 @@ module.exports = function(eleventyConfig) {
     const fullSrc = path.join("./src/assets/images/", src);
     
     let metadata = await Image(fullSrc, {
-      widths: [300, 600, 900, 1200],
+      widths: [300, 600, 900, 1440],
       formats: ["avif", "webp", "jpeg"],
       outputDir: "./dist/assets/images/",
       urlPath: "/assets/images/",
@@ -55,7 +55,7 @@ module.exports = function(eleventyConfig) {
     const fullSrc = path.join("./src/assets/images/", src);
     
     let metadata = await Image(fullSrc, {
-      widths: [400, 800, 1200],
+      widths: [400, 800, 1440],
       formats: ["webp", "jpeg"],
       outputDir: "./dist/assets/images/",
       urlPath: "/assets/images/",
