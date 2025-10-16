@@ -34,6 +34,15 @@ module.exports = function(eleventyConfig) {
       formats: ["avif", "webp", "jpeg"],
       outputDir: "./dist/assets/images/",
       urlPath: "/assets/images/",
+      sharpWebpOptions: {
+        quality: 90
+      },
+      sharpJpegOptions: {
+        quality: 90
+      },
+      sharpAvifOptions: {
+        quality: 85
+      }
     });
 
     let imageAttributes = {
@@ -59,6 +68,12 @@ module.exports = function(eleventyConfig) {
       formats: ["webp", "jpeg"],
       outputDir: "./dist/assets/images/",
       urlPath: "/assets/images/",
+      sharpWebpOptions: {
+        quality: 90
+      },
+      sharpJpegOptions: {
+        quality: 90
+      }
     });
 
     let imageAttributes = {
